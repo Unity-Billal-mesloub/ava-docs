@@ -1,9 +1,9 @@
 ___
 **Примечание от переводчика**
 
-Здесь содержится перевод файла [readme.md](https://github.com/avajs/ava/blob/main/readme.md). Если при нажатии на [ссылку](https://github.com/avajs/ava/compare/d5274c060ab785ca5823bf15e6c07ac2a2f7230b...main#diff-0730bb7c2e8f9ea2438b52e419dd86c9), содержащую последние правки в master ветке AVA, Вы не можете найти файл `readme.md`, то можете считать что перевод актуален.
+Здесь содержится перевод файла [readme.md](https://github.com/Unity-Billal-mesloub/ava/blob/main/readme.md). Если при нажатии на [ссылку](https://github.com/Unity-Billal-mesloub/ava/compare/d5274c060ab785ca5823bf15e6c07ac2a2f7230b...main#diff-0730bb7c2e8f9ea2438b52e419dd86c9), содержащую последние правки в master ветке AVA, Вы не можете найти файл `readme.md`, то можете считать что перевод актуален.
 ___
-# ![AVA](https://github.com/avajs/ava/raw/main/media/header.png)
+# ![AVA](https://github.com/Unity-Billal-mesloub/ava/raw/main/media/header.png)
 
 > Футуристичный инструмент для тестирования
 
@@ -16,7 +16,7 @@ ___
 
 Подпишитесь на [Твиттер аккаунт AVA](https://twitter.com/ava__js) для отслеживания обновлений.
 
-Переводы: [Español](https://github.com/avajs/ava-docs/blob/main/es_ES/readme.md), [Français](https://github.com/avajs/ava-docs/blob/main/fr_FR/readme.md), [Italiano](https://github.com/avajs/ava-docs/blob/main/it_IT/readme.md), [日本語](https://github.com/avajs/ava-docs/blob/main/ja_JP/readme.md), [Português](https://github.com/avajs/ava-docs/blob/main/pt_BR/readme.md)
+Переводы: [Español](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/es_ES/readme.md), [Français](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/fr_FR/readme.md), [Italiano](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/it_IT/readme.md), [日本語](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/ja_JP/readme.md), [Português](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/pt_BR/readme.md)
 
 
 ## Содержание
@@ -133,7 +133,7 @@ $ npm test -- --watch
 В AVA есть интеллектуальный режим наблюдения. [Подробнее в этом рецепте](docs/recipes/watch-mode.md).
 
 ## Командная строка
-![](https://github.com/avajs/ava/raw/main/media/screenshot-mini-reporter.gif)
+![](https://github.com/Unity-Billal-mesloub/ava/raw/main/media/screenshot-mini-reporter.gif)
 
 ```console
 $ ava --help
@@ -329,7 +329,7 @@ test.only('will be run', t => {
 
 ### Запуск тестов с соответствующими заголовками
 
-Флаг `--match` позволяет запускать только те тесты, заголовки которых соответствуют шаблону в флаге. Это работает с помощью шаблона поиска. Шаблоны не чувствительны к регистру. Посмотрите [`matcher`](https://github.com/sindresorhus/matcher) для подробной информации.
+Флаг `--match` позволяет запускать только те тесты, заголовки которых соответствуют шаблону в флаге. Это работает с помощью шаблона поиска. Шаблоны не чувствительны к регистру. Посмотрите [`matcher`](https://github.com/Unity-Billal-mesloub/matcher) для подробной информации.
 
 Совпадение заголовков, заканчивающихся на `foo`:
 
@@ -478,7 +478,7 @@ test.afterEach.cb(t => {
 });
 ```
 
-Держите в голове, что `beforeEach` и `afterEach` хуки выполняются "до" и "после" запуска теста и по-умолчанию все тесты запускаются асинхронно. Если Вам необходимо выставить глобальное состояние для каждого теста (отслеживание `console.log` [к примеру](https://github.com/avajs/ava/issues/560)), Вам необходимо запускать [тесты последовательно](#Последовательные-тесты).
+Держите в голове, что `beforeEach` и `afterEach` хуки выполняются "до" и "после" запуска теста и по-умолчанию все тесты запускаются асинхронно. Если Вам необходимо выставить глобальное состояние для каждого теста (отслеживание `console.log` [к примеру](https://github.com/Unity-Billal-mesloub/ava/issues)), Вам необходимо запускать [тесты последовательно](#Последовательные-тесты).
 
 Помните, что AVA запускает каждый тест-файл в отдельном процессе. Вы не можете обнулять глобальное состояние в `after`-хуке, так как он запускается перед завершением процесса.
 
@@ -523,7 +523,7 @@ test.only.serial(...);
 
 ### Собственный модуль проверок
 
-Вы можете использовать любую библиотеку проверок вместо или с тем функционалом, что встроен в AVA, но в этом случае Вы не сможете использовать метод `.plan()`, [смотрите #25](https://github.com/avajs/ava/issues/25).
+Вы можете использовать любую библиотеку проверок вместо или с тем функционалом, что встроен в AVA, но в этом случае Вы не сможете использовать метод `.plan()`, [смотрите #25](https://github.com/Unity-Billal-mesloub/ava/issues).
 
 ```js
 import assert from 'assert';
@@ -674,14 +674,14 @@ AVA может сгенерировать TAP вывод через опцию `
 $ ava --tap | tap-nyan
 ```
 
-<img src="https://github.com/avajs/ava/raw/f62c13762d57b164a6c68175e57ec13e5e5241ac/media/tap-output.png" width="398">
+<img src="https://github.com/Unity-Billal-mesloub/ava/raw/f62c13762d57b164a6c68175e57ec13e5e5241ac/media/tap-output.png" width="398">
 
 
 ### <a name="stack-trace"></a>Чистый Stack trace
 
 AVA автоматически удаляет ненужные строки в Stack trace, что позволить более быстро найти источник ошибки.
 
-<img src="https://github.com/avajs/ava/raw/f62c13762d57b164a6c68175e57ec13e5e5241ac/media/stack-traces.png" width="300">
+<img src="https://github.com/Unity-Billal-mesloub/ava/raw/f62c13762d57b164a6c68175e57ec13e5e5241ac/media/stack-traces.png" width="300">
 
 
 ## API
