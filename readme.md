@@ -1,14 +1,14 @@
 # Localized [AVA](https://avajs.dev) docs
 
-- [Español](es_ES/readme.md) *(by [@AlbertoFuente](https://github.com/AlbertoFuente))*
-- [Français](fr_FR/readme.md) *(by [@forresst](https://github.com/forresst))*
-- [Italiano](it_IT/readme.md) *(by [@dej611](https://github.com/dej611))*
-- [日本語](ja_JP/readme.md) *(by [@makotot](https://github.com/makotot))*
-- [Português](pt_BR/readme.md) *(by [@charbelrami](https://github.com/charbelrami))*
-- [Русский](ru_RU/readme.md) *(by [@sohje](https://github.com/sohje))*
-- [简体中文](zh_CN/readme.md) *(by [@zhaozhiming](https://github.com/zhaozhiming))*
-- [한국어](ko_KR/readme.md) *(by [@preco21](https://github.com/preco21), [@jopemachine](https://github.com/jopemachine))*
-- [Polski](pl_PL/readme.md) *(by [@mbiesiad](https://github.com/mbiesiad))*
+- [Español](es_ES/readme.md) *(by [@Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub))*
+- [Français](fr_FR/readme.md) *(by [@Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub))*
+- [Italiano](it_IT/readme.md) *(by [@Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub))*
+- [日本語](ja_JP/readme.md) *(by [@Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub))*
+- [Português](pt_BR/readme.md) *(by [@Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub))*
+- [Русский](ru_RU/readme.md) *(by [@Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub))*
+- [简体中文](zh_CN/readme.md) *(by [@Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub))*
+- [한국어](ko_KR/readme.md) *(by [@Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub), 
+- [Polski](pl_PL/readme.md) *(by [@Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub))*
 
 
 ## Contribute
