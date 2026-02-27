@@ -1,7 +1,7 @@
 ___
 **Note du traducteur**
 
-C'est la traduction du fichier [readme.md](https://github.com/avajs/ava/blob/main/readme.md). Voici un [lien](https://github.com/avajs/ava/compare/c5d2b53de8992abd36afd2387e45ed35db79a7e6...main#diff-5a831ea67cf5cf8703b0de46901ab25bd191f56b320053be9332d9a3b0d01d15) vers les différences avec le master de AVA (Si en cliquant sur le lien, vous ne trouvez pas le fichier `readme.md` parmi les fichiers modifiés, vous pouvez donc en déduire que la traduction est à jour).
+C'est la traduction du fichier [readme.md](https://github.com/Unity-Billal-mesloub/ava/blob/main/readme.md). Voici un [lien](https://github.com/avajs/ava/compare/c5d2b53de8992abd36afd2387e45ed35db79a7e6...main#diff-5a831ea67cf5cf8703b0de46901ab25bd191f56b320053be9332d9a3b0d01d15) vers les différences avec le master de AVA (Si en cliquant sur le lien, vous ne trouvez pas le fichier `readme.md` parmi les fichiers modifiés, vous pouvez donc en déduire que la traduction est à jour).
 ___
 [![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine/)
 
@@ -13,10 +13,10 @@ Suivez le [compte Twitter de AVA](https://twitter.com/ava__js) pour les mises à
 
 Lisez notre [guide de contribution](contributing.md) si vous souhaitez contribuer (issues / PRs / etc).
 
-![](https://github.com/avajs/ava/raw/main/media/verbose-reporter.png)
+![](https://github.com/Unity-Billal-mesloub/ava/raw/main/media/verbose-reporter.png)
 
 
-Traductions : [Español](https://github.com/avajs/ava-docs/blob/main/es_ES/readme.md), [Français](https://github.com/avajs/ava-docs/blob/main/fr_FR/readme.md), [Italiano](https://github.com/avajs/ava-docs/blob/main/it_IT/readme.md), [日本語](https://github.com/avajs/ava-docs/blob/main/ja_JP/readme.md), [한국어](https://github.com/avajs/ava-docs/blob/main/ko_KR/readme.md), [Português](https://github.com/avajs/ava-docs/blob/main/pt_BR/readme.md), [Русский](https://github.com/avajs/ava-docs/blob/main/ru_RU/readme.md), [简体中文](https://github.com/avajs/ava-docs/blob/main/zh_CN/readme.md)
+Traductions : [Español](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/es_ES/readme.md), [Français](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/fr_FR/readme.md), [Italiano](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/it_IT/readme.md), [日本語](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/ja_JP/readme.md), [한국어](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/ko_KR/readme.md), [Português](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/pt_BR/readme.md), [Русский](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/ru_RU/readme.md), [简体中文](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/zh_CN/readme.md)
 
 
 ## Pourquoi AVA ?
@@ -110,7 +110,7 @@ npx ava --watch
 
 ## Version Node.js supportée
 
-AVA prend en charge la dernière version de toute version majeure [prise en charge par Node.js](https://github.com/nodejs/Release#release-schedule). Lisez la suite dans notre [déclaration de support](docs/support-statement.md).
+AVA prend en charge la dernière version de toute version majeure [prise en charge par Node.js](https://github.com/Unity-Billal-mesloub/Release#release-schedule). Lisez la suite dans notre [déclaration de support](docs/support-statement.md).
 
 ## Points forts
 
@@ -118,7 +118,7 @@ AVA prend en charge la dernière version de toute version majeure [prise en char
 
 AVA ajoute les extraits de code et les différences pour les valeurs réelles et attendues. Si les valeurs dans l'assertion sont des objets ou des tableaux, seule la différence est affichée, tout ce qui ne concerne pas le sujet est enlevé, pour se concentrer uniquement sur le problème. La différence est aussi mise en évidence ! Si vous comparez des strings, à la fois sur une ou plusieurs lignes, AVA affiche un autre type de sortie, mettant en évidence les caractères supplémentaires ou manquants.
 
-![](https://github.com/avajs/ava/raw/main/media/magic-assert-combined.png)
+![](https://github.com/Unity-Billal-mesloub/ava/raw/main/media/magic-assert-combined.png)
 
 ### Nettoyage de la stack trace
 
@@ -142,7 +142,7 @@ Veuillez consulter les [fichiers dans le répertoire `docs`](./docs) :
 
 ### Pièges classiques
 
-Nous avons une liste croissante de [pièges classiques](docs/08-common-pitfalls.md) que vous pouvez rencontrer lors de l'utilisation AVA. Si vous rencontrez des problèmes que vous jugez habituels, commentez les dans [cette issue](https://github.com/avajs/ava/issues/404).
+Nous avons une liste croissante de [pièges classiques](docs/08-common-pitfalls.md) que vous pouvez rencontrer lors de l'utilisation AVA. Si vous rencontrez des problèmes que vous jugez habituels, commentez les dans [cette issue](https://github.com/Unity-Billal-mesloub/ava/issues).
 
 ## Recettes
 
@@ -176,7 +176,7 @@ Au contraire, AVA est très opiniâtre et exécute les tests en simultané, avec
 
 ### Comment l'écrire et le prononcer ?
 
-AVA, pas Ava ni ava. Prononcez [`/ˈeɪvə/`](https://github.com/avajs/ava/raw/main/media/pronunciation.m4a?raw=true) : eil (ort**eil**, or**eil**ler) V (**v**ie, a**v**oir) A (m**a**tin, **a**voir).
+AVA, pas Ava ni ava. Prononcez [`/ˈeɪvə/`](https://github.com/Unity-Billal-mesloub/ava/raw/main/media/pronunciation.m4a?raw=true) : eil (ort**eil**, or**eil**ler) V (**v**ie, a**v**oir) A (m**a**tin, **a**voir).
 
 ### Que représente l'arrière plan de l'image ?
 
@@ -188,43 +188,37 @@ C'est la [galaxie d'Andromède.](https://simple.wikipedia.org/wiki/Andromeda_gal
 
 ## Support
 
-- [Discussions sur GitHub](https://github.com/avajs/ava/discussions)
+- [Discussions sur GitHub](https://github.com/Unity-Billal-mesloub/ava/discussions)
 
 ## En relation
 
-- [eslint-plugin-ava](https://github.com/avajs/eslint-plugin-ava) - Règles de Lint pour les tests AVA
-- [@ava/typescript](https://github.com/avajs/typescript) — Test des projets TypeScript
-- [@ava/cooperate](https://github.com/avajs/cooperate) — Primitives de bas niveau pour permettre la coopération entre les fichiers de test
-- [@ava/get-port](https://github.com/avajs/get-port) — Réserver un port pendant les tests
+- [eslint-plugin-ava](https://github.com/Unity-Billal-mesloub/eslint-plugin-ava) - Règles de Lint pour les tests AVA
+- [@ava/typescript](https://github.com/Unity-Billal-mesloub/typescript) — Test des projets TypeScript
+- [@ava/cooperate](https://github.com/Unity-Billal-mesloub/cooperate) — Primitives de bas niveau pour permettre la coopération entre les fichiers de test
+- [@ava/get-port](https://github.com/Unity-Billal-mesloub/get-port) — Réserver un port pendant les tests
 
 ## Liens
 
 - [Stickers AVA, t-shirts, etc](https://www.redbubble.com/people/sindresorhus/works/30330590-ava-logo)
-- [La liste Awesome](https://github.com/avajs/awesome-ava)
+- [La liste Awesome](https://github.com/Unity-Billal-mesloub/awesome-ava)
 - [Vous aimez AVA ? Faites un don ici !](https://opencollective.com/ava)
-- [Plus…](https://github.com/avajs/awesome-ava)
+- [Plus…](https://github.com/Unity-Billal-mesloub/awesome-ava)
 
 ## L'équipe
 
-[![Mark Wubben](https://github.com/novemberborn.png?size=100)](https://github.com/novemberborn) | [![Sindre Sorhus](https://github.com/sindresorhus.png?size=100)](https://github.com/sindresorhus)
+[Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
 ---|---
-[Mark Wubben](https://novemberborn.net) | [Sindre Sorhus](https://sindresorhus.com)
 
 ###### Auparavant dans l'équipe
 
-- [Kevin Mårtensson](https://github.com/kevva)
-- [James Talmage](https://github.com/jamestalmage)
-- [Juan Soto](https://github.com/sotojuan)
-- [Jeroen Engels](https://github.com/jfmengels)
-- [Vadim Demedes](https://github.com/vadimdemedes)
-
+- [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
 
 <div align="center">
 	<br>
 	<br>
 	<br>
 	<a href="https://avajs.dev">
-		<img src="https://github.com/avajs/ava/raw/main/media/logo.svg" width="200" alt="AVA">
+		<img src="https://github.com/Unity-Billal-mesloub/ava/raw/main/media/logo.svg" width="200" alt="AVA">
 	</a>
 	<br>
 	<br>
