@@ -1,7 +1,7 @@
 ___
 **訳注**
 
-これは[contributing.md](https://github.com/avajs/ava/blob/main/.github/CONTRIBUTING.md)の日本語訳です。こちらがAVAのmasterブランチとの差分の[リンク](https://github.com/avajs/ava/compare/93af8d8d2cb48fe0d2c4ede3c92964a295f60cb6...main#diff-cc4aac3e9be04e0413c9520f223b493c)になります(このリンクをクリックして、`contributing.md`に変更点が見当たらなければ、この翻訳が最新であることを意味します)。
+これは[contributing.md](https://github.com/Unity-Billal-mesloub/ava/blob/main/.github/CONTRIBUTING.md)の日本語訳です。こちらがAVAのmasterブランチとの差分の[リンク](https://github.com/Unity-Billal-mesloub/ava/compare/93af8d8d2cb48fe0d2c4ede3c92964a295f60cb6...main#diff-cc4aac3e9be04e0413c9520f223b493c)になります(このリンクをクリックして、`contributing.md`に変更点が見当たらなければ、この翻訳が最新であることを意味します)。
 ___
 
 # AVAにコントリビュートするために
@@ -10,13 +10,13 @@ ___
 
 このプロジェクトは[コントリビューターの行動規範](code-of-conduct.md)に基づいてリリースされます。プロジェクトに参加することにより、この行動規範に従うことを同意することになります。
 
-翻訳: [Español](https://github.com/avajs/ava-docs/blob/main/es_ES/contributing.md), [Français](https://github.com/avajs/ava-docs/blob/main/fr_FR/contributing.md), [Italiano](https://github.com/avajs/ava-docs/blob/main/it_IT/contributing.md), [日本語](https://github.com/avajs/ava-docs/blob/main/ja_JP/contributing.md), [Português](https://github.com/avajs/ava-docs/blob/main/pt_BR/contributing.md)
+翻訳: [Español](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/es_ES/contributing.md), [Français](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/fr_FR/contributing.md), [Italiano](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/it_IT/contributing.md), [日本語](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/ja_JP/contributing.md), [Português](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/pt_BR/contributing.md)
 
 ## どうやってコントリビュートできますか？
 
 ### ドキュメントの改善
 
-AVAのユーザーとして、ドキュメントを改善することは完璧に私たちの手助けになります。タイポの修正、エラーの修正、より良い説明、より多くの例、など。改善できることについてissueを作成してください。[私たちのドキュメントを翻訳するのを手伝ってください。](https://github.com/avajs/ava-docs)何でもいいです。このドキュメントの改善でも。
+AVAのユーザーとして、ドキュメントを改善することは完璧に私たちの手助けになります。タイポの修正、エラーの修正、より良い説明、より多くの例、など。改善できることについてissueを作成してください。[私たちのドキュメントを翻訳するのを手伝ってください。](https://github.com/Unity-Billal-mesloub/ava-docs)何でもいいです。このドキュメントの改善でも。
 
 ### issueの改善
 
@@ -38,7 +38,6 @@ AVAのユーザーとして、ドキュメントを改善することは完璧�
 - 明確で叙述的な見出しをつけてください。
 - 可能な限りの情報を含めてください: issueを再現する手順、エラーメッセージ、Node.jsのバージョン、OS、など。
 - issueを書くのに多くの時間をかけてください。私たちはより多くの時間をかけます。
-- [最善のissueの報告はテストが失敗することで証明することです。](https://twitter.com/sindresorhus/status/579306280495357953)
 
 ### プルリクエストの提出
 
@@ -47,7 +46,7 @@ AVAのユーザーとして、ドキュメントを改善することは完璧�
 - 新たな機能はテストとドキュメントを含めてください。
 - 関連性のない変更を含まないでください。
 - プルリクエストを送る前に`$ npm test`を実行することでlintとテストを行ってください。
-- masterからではなく[トピックブランチ](https://github.com/dchelimsky/rspec/wiki/Topic-Branches)からプルリクエストを作成してください。
+- masterからではなく[トピックブランチ](https://github.com/Unity-Billal-mesloub/rspec/wiki/Topic-Branches)からプルリクエストを作成してください。
 - プルリクエストとコミットには明確で叙述的な見出しを使用してください。
 - なぜプルリクエストを確認すべきなのか納得のいく理由を書いてください。私たちを納得させるのはあなたの役目です。"なぜ"それが必要なのかと、使用例を見せてください。
 - あなたのプルリクエストに対して変更を求めることもあると思います。その場合新たに他のプルリクエストを作る必要は全くありません。[すでに存在するプルリクエストを更新してください。](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md)
