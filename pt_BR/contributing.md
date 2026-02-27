@@ -1,7 +1,7 @@
 ___
 **Nota do tradutor**
 
-Esta é a tradução de [contributing.md](https://github.com/avajs/ava/blob/main/.github/CONTRIBUTING.md). [Este link](https://github.com/avajs/ava/compare/d72723b9154f992b62b1e995bd7756cb93e7674c...master) compara a versão em que se baseou esta tradução com a última versão disponível no branch `master` do AVA. Se não houver mudanças em `contributing.md`, então a tradução está atualizada.
+Esta é a tradução de [contributing.md](https://github.com/Unity-Billal-mesloub/ava/blob/main/.github/CONTRIBUTING.md). [Este link](https://github.com/Unity-Billal-mesloub/ava/compare/d72723b9154f992b62b1e995bd7756cb93e7674c...master) compara a versão em que se baseou esta tradução com a última versão disponível no branch `master` do AVA. Se não houver mudanças em `contributing.md`, então a tradução está atualizada.
 ___
 
 # Contribuindo com o AVA
@@ -10,13 +10,13 @@ ___
 
 Por favor, note que este projecto é lançado com um [Código de Conduta do Contribuidor](code-of-conduct.md). Ao participar neste projecto, você concorda em cumprir seus termos.
 
-Traduções: [Español](https://github.com/avajs/ava-docs/blob/main/es_ES/contributing.md), [Français](https://github.com/avajs/ava-docs/blob/main/fr_FR/contributing.md), [Italiano](https://github.com/avajs/ava-docs/blob/main/it_IT/contributing.md), [日本語](https://github.com/avajs/ava-docs/blob/main/ja_JP/contributing.md)
+Traduções: [Español](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/es_ES/contributing.md), [Français](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/fr_FR/contributing.md), [Italiano](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/it_IT/contributing.md), [日本語](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/ja_JP/contributing.md)
 
 ## Como posso contribuir?
 
 ### Melhore a documentação
 
-Como um usuário do AVA, você é o candidato perfeito para nos ajudar a melhorar a nossa documentação. Correções de erro de digitação, correções de erro, melhores explicações e mais exemplos, etc. Issues em aberto para as coisas que poderiam ser melhoradas. [Ajude a traduzir nossa documentação.](https://github.com/avajs/ava-docs) Qualquer coisa. Até mesmo melhorias para este documento.
+Como um usuário do AVA, você é o candidato perfeito para nos ajudar a melhorar a nossa documentação. Correções de erro de digitação, correções de erro, melhores explicações e mais exemplos, etc. Issues em aberto para as coisas que poderiam ser melhoradas. [Ajude a traduzir nossa documentação.](https://github.com/Unity-Billal-mesloub/ava-docs) Qualquer coisa. Até mesmo melhorias para este documento.
 
 ### Melhore issues
 
@@ -38,8 +38,7 @@ Nós temos um [chat](https://gitter.im/avajs/ava). Dê um pulo lá e espie, fale
 - Use um título claro e descritivo.
 - Inclua o máximo possível de informações: etapas para reproduzir a issue, mensagem de erro, versão do Node.js, sistema operacional, etc.
 - Quanto mais tempo você colocar em uma issue, quanto mais nós colocaremos.
-- [O melhor relatório de issue é um teste falho provando-a.](https://twitter.com/sindresorhus/status/579306280495357953)
-
+   
 ### Submetendo uma pull request
 
 - Mudanças não-triviais muitas vezes são primeiramente melhor discutidas em uma issue, para impedí-lo de fazer trabalho desnecessário.
@@ -47,7 +46,7 @@ Nós temos um [chat](https://gitter.im/avajs/ava). Dê um pulo lá e espie, fale
 - Novas funcionalidades devem ser acompanhadas de testes e documentação.
 - Não inclua mudanças não relacionadas.
 - Faça lint e teste antes de submeter a pull request executando `$ npm test`.
-- Faça a pull request a partir de um [topic branch](https://github.com/dchelimsky/rspec/wiki/Topic-Branches), e não do master.
+- Faça a pull request a partir de um [topic branch](https://github.com/Unity-Billal-mesloub/rspec/wiki/Topic-Branches), e não do master.
 - Use um título claro e descritivo para a pull request e os commits.
 - Escreva uma descrição convincente do motivo pelo qual devemos aceitar sua pull request. É seu trabalho nos convencer. Responda "por que" ela é necessária e forneça casos de uso.
 - Podemos pedir que faça mudanças à sua pull request. Nunca há necessidade de abrir outra pull request. [Apenas atualize a existente.](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md)
