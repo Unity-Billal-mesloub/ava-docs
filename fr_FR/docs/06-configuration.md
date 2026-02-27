@@ -1,11 +1,11 @@
 ___
 **Note du traducteur**
 
-C'est la traduction du fichier [06-configuration.md](https://github.com/avajs/ava/blob/main/docs/06-configuration.md). Voici un [lien](https://github.com/avajs/ava/compare/b208d143ad852dc95aa8b44eed94ac1f404a25f4...main#diff-ca74b9b04caf1bea61ec4f62d5d8ddcd93b0cef710e781bd01629d71fc6aedc2) vers les différences avec le master de AVA (Si en cliquant sur le lien, vous ne trouvez pas le fichier `06-configuration.md` parmi les fichiers modifiés, vous pouvez donc en déduire que la traduction est à jour).
+C'est la traduction du fichier [06-configuration.md](https://github.com/Unity-Billal-mesloub/ava/blob/main/docs/06-configuration.md). Voici un [lien](https://github.com/Unity-Billal-mesloub/ava/compare/b208d143ad852dc95aa8b44eed94ac1f404a25f4...main#diff-ca74b9b04caf1bea61ec4f62d5d8ddcd93b0cef710e781bd01629d71fc6aedc2) vers les différences avec le master de AVA (Si en cliquant sur le lien, vous ne trouvez pas le fichier `06-configuration.md` parmi les fichiers modifiés, vous pouvez donc en déduire que la traduction est à jour).
 ___
 # Configuration
 
-Traductions : [English](https://github.com/avajs/ava/blob/main/docs/06-configuration.md)
+Traductions : [English](https://github.com/Unity-Billal-mesloub/ava/blob/main/docs/06-configuration.md)
 
 Toutes les [options du CLI][CLI] peuvent être configurés dans la section `ava` de votre `package.json` ou dans un fichier `ava.config.*`. Cela vous permet de modifier le comportement par défaut de la commande `ava`, ainsi vous n'avez plus besoin à chaque fois de taper les mêmes options sur l'invite de commande.
 
@@ -48,7 +48,7 @@ Les arguments passés au CLI seront toujours prioritaires sur les options du CLI
 ## Options
 
 - `files` : un tableau de glob patterns pour sélectionner les fichiers de test. Les fichiers préfixés avec un underscore sont ignorés. Par défaut, seuls les fichiers avec l'extensions `cjs`, `mjs` & `js` sont sélectionnés, même si le pattern correspond à d'autres fichiers. Spécifiez `extensions` pour accepter d'autres extensions de fichier
-- `ignoredByWatcher` : un tableau glob patterns pour faire correspondre les fichiers qui, même modifiés, sont ignorés par l'observateur. Voir la [recette du mode watch pour plus de détails](https://github.com/avajs/ava-docs/blob/main/fr_FR/docs/recipes/watch-mode.md)
+- `ignoredByWatcher` : un tableau glob patterns pour faire correspondre les fichiers qui, même modifiés, sont ignorés par l'observateur. Voir la [recette du mode watch pour plus de détails](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/fr_FR/docs/recipes/watch-mode.md)
 - `match` : n'est généralement pas utile dans la configuration du `package.json`, mais est équivalent au [`--match` de la CLI](./05-command-line.md#exécution-de-tests-correspondants-à-des-titres)
 - `cache` : par défaut à `true` pour mettre en cache les fichiers compilés sous `node_modules/.cache/ava`. Si à `false`, les fichiers sont mis en cache à la place dans un répertoire temporaire
 - `concurrency` : nombre maximum de fichiers de test en cours d'exécution en même temps (par défaut : le nombre de cœurs du processeur)
@@ -68,7 +68,7 @@ Les arguments passés au CLI seront toujours prioritaires sur les options du CLI
 
 Veuillez notez qu'en fournissant des fichiers à la CLI, cela écrase l'option `files`.
 
-Fournissez l'option `typescript` (et installez [`@ava/typescript`](https://github.com/avajs/typescript) comme dépendance supplémentaire) pour AVA afin d'exécuter les tests écrits en TypeScript.
+Fournissez l'option `typescript` (et installez [`@ava/typescript`](https://github.com/Unity-Billal-mesloub/typescript) comme dépendance supplémentaire) pour AVA afin d'exécuter les tests écrits en TypeScript.
 
 ## Utilisation des fichiers `ava.config.*`
 
