@@ -9,8 +9,6 @@ ___
 
 AVA est un exécuteur de tests pour Node.js avec une API concise, une sortie d'erreur détaillée, l'adoption de nouvelles fonctionnalités du langage et l'isolation des processus qui vous permet de développer en toute confiance 🚀.
 
-Suivez le [compte Twitter de AVA](https://twitter.com/ava__js) pour les mises à jour.
-
 Lisez notre [guide de contribution](contributing.md) si vous souhaitez contribuer (issues / PRs / etc).
 
 ![](https://github.com/Unity-Billal-mesloub/ava/raw/main/media/verbose-reporter.png)
