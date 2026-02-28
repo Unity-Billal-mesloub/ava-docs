@@ -1,18 +1,18 @@
 # <img src="https://github.com/avajs/ava/raw/main/media/header.png" title="AVA" alt="AVA logo" width="530">
 
-[![Build Status](https://travis-ci.org/avajs/ava.svg?branch=master)](https://travis-ci.org/avajs/ava)  [![Coverage Status](https://codecov.io/gh/avajs/ava/branch/master/graph/badge.svg)](https://codecov.io/gh/avajs/ava/branch/master) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo) [![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/ava)
-[![Mentioned in Awesome Node.js](https://awesome.re/mentioned-badge.svg)](https://github.com/sindresorhus/awesome-nodejs)
+[![Build Status](https://travis-ci.org/avajs/ava.svg?branch=master)](https://travis-ci.org/avajs/ava)  [![Coverage Status](https://codecov.io/gh/avajs/ava/branch/master/graph/badge.svg)](https://codecov.io/gh/avajs/ava/branch/master) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/Unity-Billal-mesloub/xo) [![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/ava)
+[![Mentioned in Awesome Node.js](https://awesome.re/mentioned-badge.svg)]
 
 Testowanie może być trudne. AVA pomaga je zrobić. AVA jest programem uruchamiającym testy dla Node.js ze zwięzłym API, szczegółowym wyjściem błędu, nowymi funkcjami języka i izolacją procesów, które pozwalają na bardziej efektywne pisanie testów. Więc możesz wysłać więcej niesamowitego kodu. 🚀
 
 Obserwuj [konto AVA na Twitter](https://twitter.com/ava__js) dla aktualizacji.
 
-Przeczytaj nasz [contributing guide](https://github.com/mbiesiad/ava-docs/blob/pl_PL/pl_PL/contributing.md) jeśli chcesz pomóc (issues / PRs / etc).
+Przeczytaj nasz [contributing guide](https://github.com/Unity-Billal-mesloub/ava-docs/blob/pl_PL/pl_PL/contributing.md) jeśli chcesz pomóc (issues / PRs / etc).
 
-![](https://github.com/avajs/ava/raw/main/media/mini-reporter.gif)
+![](https://github.com/Unity-Billal-mesloub/ava/raw/main/media/mini-reporter.gif)
 
 
-Tłumaczenia: [Español](https://github.com/avajs/ava-docs/blob/main/es_ES/readme.md), [Français](https://github.com/avajs/ava-docs/blob/main/fr_FR/readme.md), [Italiano](https://github.com/avajs/ava-docs/blob/main/it_IT/readme.md), [日本語](https://github.com/avajs/ava-docs/blob/main/ja_JP/readme.md), [한국어](https://github.com/avajs/ava-docs/blob/main/ko_KR/readme.md), [Português](https://github.com/avajs/ava-docs/blob/main/pt_BR/readme.md), [Русский](https://github.com/avajs/ava-docs/blob/main/ru_RU/readme.md), [简体中文](https://github.com/avajs/ava-docs/blob/main/zh_CN/readme.md)
+Tłumaczenia: [Español](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/es_ES/readme.md), [Français](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/fr_FR/readme.md), [Italiano](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/it_IT/readme.md), [日本語](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/ja_JP/readme.md), [한국어](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/ko_KR/readme.md), [Português](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/pt_BR/readme.md), [Русский](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/ru_RU/readme.md), [简体中文](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/zh_CN/readme.md)
 
 
 ## Dlaczego AVA?
@@ -25,7 +25,6 @@ Tłumaczenia: [Español](https://github.com/avajs/ava-docs/blob/main/es_ES/readm
 - Zawiera definicje TypeScript
 - [Magic assert](#magic-assert)
 - [Izolowane środowisko dla każdego pliku testowego](./docs/01-writing-tests.md#proces-izolacji)
-- [Napisz swoje testy przy użyciu najnowszej składni JavaScript](https://github.com/avajs/babel)
 - [Wsparcie promise](./docs/01-writing-tests.md#wsparcie-promise)
 - [Wsparcie funkcji asynchronicznych](./docs/01-writing-tests.md#wsparcie-funkcji-async)
 - [Wsparcie Observable](./docs/01-writing-tests.md#wsparcie-observable)
@@ -107,7 +106,7 @@ npx ava --watch
 
 ## Wspierane wersje Node.js
 
-AVA obsługuje najnowszą wersję dowolnej głównej wersji, która [jest obsługiwana przez sam Node.js](https://github.com/nodejs/Release#release-schedule). Przeczytaj więcej w naszej [deklaracji wsparcia](docs/support-statement.md).
+AVA obsługuje najnowszą wersję dowolnej głównej wersji, która [jest obsługiwana przez sam Node.js](https://github.com/Unity-Billal-mesloub/Release#release-schedule). Przeczytaj więcej w naszej [deklaracji wsparcia](docs/support-statement.md).
 
 ## Najważniejsze
 
@@ -115,7 +114,7 @@ AVA obsługuje najnowszą wersję dowolnej głównej wersji, która [jest obsłu
 
 AVA dodaje fragmenty kodu i czyści różnice dla wartości rzeczywistych i oczekiwanych. Jeśli wartości w asercji są obiektami lub tablicami, wyświetlana jest tylko różnica, aby usunąć szum i skupić się na problemie. Różnica jest również wyróżniona w składni! Jeśli porównujesz ciągi znaków, zarówno jedno jak i wieloliniowe, AVA wyświetla inny rodzaj danych wyjściowych, podkreślając dodane lub brakujące znaki.
 
-![](https://github.com/avajs/ava/raw/main/media/magic-assert-combined.png)
+![](https://github.com/Unity-Billal-mesloub/ava/raw/main/media/magic-assert-combined.png)
 
 ### Czyszczenie śladów stosu
 
@@ -139,7 +138,7 @@ Proszę zobacz [pliki w katalogu `docs`](./docs):
 
 ### Częste pułapki
 
-Mamy coraz więcej [typowych pułapek](docs/08-common-pitfalls.md) których możesz doświadczyć podczas korzystania z AVA. Jeśli napotkasz jakieś problemy, które uważasz za typowe, skomentuj w [tym issue](https://github.com/avajs/ava/issues/404).
+Mamy coraz więcej [typowych pułapek](docs/08-common-pitfalls.md) których możesz doświadczyć podczas korzystania z AVA. Jeśli napotkasz jakieś problemy, które uważasz za typowe, skomentuj w [tym issue](https://github.com/Unity-Billal-mesloub/ava/issues/).
 
 ### Recipes
 
@@ -190,17 +189,18 @@ Jest to [galaktyka Andromeda](https://simple.wikipedia.org/wiki/Andromeda_galaxy
 
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/ava)
 - [Spectrum](https://spectrum.chat/ava)
-- [Twitter](https://twitter.com/ava__js)
+
 
 ## Powiązane
 
-- [eslint-plugin-ava](https://github.com/avajs/eslint-plugin-ava) - Zasady Linta dla testów AVA
-- [sublime-ava](https://github.com/avajs/sublime-ava) - Snippets dla testów AVA
-- [atom-ava](https://github.com/avajs/atom-ava) - Snippets dla testów AVA
-- [vscode-ava](https://github.com/samverschueren/vscode-ava) - Snippets dla testów AVA
-- [gulp-ava](https://github.com/avajs/gulp-ava) - Uruchamianie testów z gulp
-- [grunt-ava](https://github.com/avajs/grunt-ava) - Uruchamianie testów z grunt
+- [eslint-plugin-ava](https://github.com/Unity-Billal-mesloub/eslint-plugin-ava) - Zasady Linta dla testów AVA
 - [Więcej…](https://github.com/avajs/awesome-ava#packages)
+
+ - Snippets dla testów AVA
+ - Snippets dla testów AVA
+ - Snippets dla testów AVA
+ - Uruchamianie testów z gulp
+ - Uruchamianie testów z grunt
 
 ## Linki
 
@@ -212,23 +212,22 @@ Jest to [galaktyka Andromeda](https://simple.wikipedia.org/wiki/Andromeda_galaxy
 
 ## Zespół
 
-[![Mark Wubben](https://github.com/novemberborn.png?size=100)](https://github.com/novemberborn) | [![Sindre Sorhus](https://github.com/sindresorhus.png?size=100)](https://github.com/sindresorhus) | [![Vadim Demedes](https://github.com/vadimdemedes.png?size=100)](https://github.com/vadimdemedes)
+[![Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)] 
+
 ---|---|---
-[Mark Wubben](https://novemberborn.net) | [Sindre Sorhus](http://sindresorhus.com) | [Vadim Demedes](https://github.com/vadimdemedes)
+[Mark Wubben](https://novemberborn.net) | [Sindre Sorhus](http://sindresorhus.com) | [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
 
 ###### Poprzedni członkowie
 
-- [Kevin Mårtensson](https://github.com/kevva)
-- [James Talmage](https://github.com/jamestalmage)
-- [Juan Soto](https://github.com/sotojuan)
-- [Jeroen Engels](https://github.com/jfmengels)
+- [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
+
 
 <div align="center">
 	<br>
 	<br>
 	<br>
 	<a href="https://avajs.dev">
-		<img src="https://github.com/avajs/ava/raw/main/media/logo.svg" width="200" alt="AVA">
+		<img src="https://github.com/Unity-Billal-mesloub/ava/raw/main/media/logo.svg" width="200" alt="AVA">
 	</a>
 	<br>
 	<br>
