@@ -1,22 +1,21 @@
 ___
 **訳注**
 
-これは[readme.md](https://github.com/avajs/ava/blob/main/readme.md)の日本語訳です。こちらがAVAのmasterブランチとの差分の[リンク](https://github.com/avajs/ava/compare/93af8d8d2cb48fe0d2c4ede3c92964a295f60cb6...main#diff-0730bb7c2e8f9ea2438b52e419dd86c9)になります(このリンクをクリックして、`readme.md`に変更点が見当たらなければ、この翻訳が最新であることを意味します)。
+これは[readme.md](https://github.com/Unity-Billal-mesloub/ava/blob/main/readme.md)の日本語訳です。こちらがAVAのmasterブランチとの差分の[リンク]になります(このリンクをクリックして、`readme.md`に変更点が見当たらなければ、この翻訳が最新であることを意味します)。
 ___
 
 # ![AVA](https://github.com/avajs/ava/raw/main/media/header.png)
 
 > 未来型のテストランナー
 
-[![Build Status: Linux](https://travis-ci.org/avajs/ava.svg?branch=master)](https://travis-ci.org/avajs/ava) [![Build status: Windows](https://ci.appveyor.com/api/projects/status/igogxrcmhhm085co/branch/master?svg=true)](https://ci.appveyor.com/project/avajs/ava/branch/master) [![Coverage Status](https://coveralls.io/repos/avajs/ava/badge.svg?branch=master&service=github)](https://coveralls.io/github/avajs/ava?branch=master) [![Gitter](https://img.shields.io/badge/Gitter-Join_the_AVA_chat_%E2%86%92-00d06f.svg)](https://gitter.im/avajs/ava)
+[![Build Status: Linux](https://travis-ci.org/Unity-Billal-mesloub/ava.svg?branch=main)](https://travis-ci.org/Unity-Billal-mesloub/ava) [![Build status: Windows](https://ci.appveyor.com/api/projects/status/igogxrcmhhm085co/branch/master?svg=true)](https://ci.appveyor.com/project/Unity-Billal-mesloub/ava/branch/main) [![Coverage Status](https://coveralls.io/repos/Unity-Billal-mesloub/ava/badge.svg?branch=main&service=github)](https://coveralls.io/github/Unity-Billal-mesloub/ava?branch=main) [![Gitter](https://img.shields.io/badge/Gitter-Join_the_AVA_chat_%E2%86%92-00d06f.svg)](https://gitter.im/Unity-Billal-mesloub/ava)
 
-JavaScript自体はシングルスレッドですが、Node.jsにおけるIOは、その非同期の性質によって並列で実行可能です。AVAは、この事が利点であり、テストを同時に実行することができ、特にIOが重いテストで効果があります。また、テストファイルは独立したプロセスで並列して実行することで、より良いパフォーマンスと各テストファイル毎に分離された環境にすることができます。PageresにおけるMochaからAVAへの[切り替え](https://github.com/sindresorhus/pageres/commit/663be15acb3dd2eb0f71b1956ef28c2cd3fdeed0)によって、テストにかかる時間を31秒から11秒まで減らしました。並列実行するテストにすると、大域の状態や他のテストの状態から影響を受けないことを意味するようになる粒度が極小のテストを書くようになります。これはすごい事ですよね!
+JavaScript自体はシングルスレッドですが、Node.jsにおけるIOは、その非同期の性質によって並列で実行可能です。AVAは、この事が利点であり、テストを同時に実行することができ、特にIOが重いテストで効果があります。また、テストファイルは独立したプロセスで並列して実行することで、より良いパフォーマンスと各テストファイル毎に分離された環境にすることができます。PageresにおけるMochaからAVAへの[切り替え](https://github.com/Unity-Billal-mesloub/pageres/commit/663be15acb3dd2eb0f71b1956ef28c2cd3fdeed0)によって、テストにかかる時間を31秒から11秒まで減らしました。並列実行するテストにすると、大域の状態や他のテストの状態から影響を受けないことを意味するようになる粒度が極小のテストを書くようになります。これはすごい事ですよね!
 
 *Issueやプルリクエストなどで貢献したい場合は、[コントリビューションガイド](contributing.md)を読んでください。
 
-アップデートの情報のために[AVAのTwitterアカウント](https://twitter.com/ava__js)をフォローしてください。
-
-翻訳: [Español](https://github.com/avajs/ava-docs/blob/main/es_ES/readme.md), [Français](https://github.com/avajs/ava-docs/blob/main/fr_FR/readme.md), [Italiano](https://github.com/avajs/ava-docs/blob/main/it_IT/readme.md), [日本語](https://github.com/avajs/ava-docs/blob/main/ja_JP/readme.md), [Português](https://github.com/avajs/ava-docs/blob/main/pt_BR/readme.md)
+アップデートの情報のために
+翻訳: [Español](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/es_ES/readme.md), [Français](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/fr_FR/readme.md), [Italiano](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/it_IT/readme.md), [日本語](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/ja_JP/readme.md), [Português](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/pt_BR/readme.md)
 
 
 ## 目次
@@ -96,7 +95,7 @@ test('bar', async t => {
 });
 ```
 
-<img src="https://github.com/avajs/ava/raw/a45cdb9eb7e04097952b3a88b504e12d8885fbd3/media/screenshot.png" width="150" align="right">
+<img src="https://github.com/Unity-Billal-mesloub/ava/raw/a45cdb9eb7e04097952b3a88b504e12d8885fbd3/media/screenshot.png" width="150" align="right">
 
 #### 実行
 
@@ -166,7 +165,7 @@ CLIに渡される引数は常に`package.json`の設定よりも優先されま
 
 ## ドキュメント
 
-テストは非同期で実行され、サポートされたasyncオブジェクト(promiseか[observable](https://github.com/zenparsing/zen-observable))で返す必要があります。私たちは、[async関数](#async関数のサポート)を使うことを*強く*推奨します; これはasyncのコードを簡潔で読みやすいものにして、暗黙のうちにpromiseを返すので、自分では明示的に返す必要はありません。
+テストは非同期で実行され、サポートされたasyncオブジェクト(promiseか[observable](https://github.com/Unity-Billal-mesloub/zen-observable))で返す必要があります。私たちは、[async関数](#async関数のサポート)を使うことを*強く*推奨します; これはasyncのコードを簡潔で読みやすいものにして、暗黙のうちにpromiseを返すので、自分では明示的に返す必要はありません。
 
 上記のサポート対象のasyncオブジェクトの中の1つも返さなければ、同期で即座に終了すると考えられます。
 
@@ -355,7 +354,7 @@ test.only.serial(...);
 
 ### カスタムアサーションモジュール
 
-AVAのデフォルトに加えて、または代わりとしてどのようなアサーションモジュールを利用することも可能ですが、[今はまだ](https://github.com/avajs/ava/issues/25)`.plan()`メソッドを使うことはできません。
+AVAのデフォルトに加えて、または代わりとしてどのようなアサーションモジュールを利用することも可能ですが、[今はまだ](https://github.com/Unity-Billal-mesloub/ava/issues)`.plan()`メソッドを使うことはできません。
 
 ```js
 import assert from 'assert';
@@ -385,7 +384,7 @@ test('foo bar', t => {
 });
 ```
 
-[#111](https://github.com/avajs/ava/issues/111)が、将来性のある拡張として、議論されています。
+[#111](https://github.com/Unity-Billal-mesloub/ava/issues)が、将来性のある拡張として、議論されています。
 
 
 ### Promiseのサポート
@@ -430,7 +429,7 @@ test(async t => {
 
 ### Observableのサポート
 
-AVAは[Observable](https://github.com/zenparsing/es-observable)をビルトインサポートしています。
+AVAは[Observable](https://github.com/Unity-Billal-mesloub/es-observable)をビルトインサポートしています。
 テストからobservableを返すと、AVAはテストが終了する前にobservableを自動的に完了します。
 
 *"コールバックモード"や`t.end()`は必要ありません*
@@ -460,19 +459,19 @@ test.cb(t => {
 
 ### 任意のTAPの出力
 
-AVAは`--tap`オプションの指定でどのような[TAPレポーター](https://github.com/sindresorhus/awesome-tap#reporters)を使用しても、TAPの出力をすることができます。
+AVAは`--tap`オプションの指定でどのような[TAPレポーター](https://github.com/Unity-Billal-mesloub/awesome-tap#reporters)を使用しても、TAPの出力をすることができます。
 
 ```
 $ ava --tap | tap-nyan
 ```
 
-<img src="https://github.com/avajs/ava/raw/f62c13762d57b164a6c68175e57ec13e5e5241ac/media/tap-output.png" width="398">
+<img src="https://github.com/Unity-Billal-mesloub/ava/raw/f62c13762d57b164a6c68175e57ec13e5e5241ac/media/tap-output.png" width="398">
 
 ### 明快なスタックトレース
 
 エラーの箇所をより素早く見つけられるように、AVAはスタックトレースから自動的に無関係の行を取り除きます。
 
-<img src="https://github.com/avajs/ava/raw/master/media/stack-traces.png" width="398">
+<img src="https://github.com/Unity-Billal-mesloub/ava/raw/master/media/stack-traces.png" width="398">
 
 ## API
 
@@ -592,13 +591,6 @@ test(t => {
   t.skip.is(foo(), 5); // スキップするときにplanの数を変更する必要はありません。
   t.is(1, 1);
 });
-```
-
-## 強化されたassert
-
-AVAには、より説明的なアサーションメッセージを与える、[`power-assert`](https://github.com/power-assert-js/power-assert)がビルトインとして付属してます。これにより、テストを読んでよりコード内部の情報を得ることができます。
-
-以下のようなテストの場合:
 
 ```js
 test(t => {
@@ -653,12 +645,6 @@ t.ok(a.test(b) || b === c)
 それぞれのテストファイルは分離されたNode.jsのプロセスで実行されます。これには多くの利点があります。それぞれのテストファイルは互いに影響することはありません。グローバル環境でのテストファイルのモック使用、ビルトインの機能を上書きしたりなどなどです。しかし、主にパフォーマンスの理由によりこうしています。Node.jsは非同期IOを同時に実行できますが、テストがメインスレッドをブロックするような、重い同期処理の場合はあまり役に立ちません。テストを同時に実行して並列でテストすることで、モダンシステムの利点を最大限に活用できます。
 
 
-## Tips
-
-### 一時ファイル
-
-テストを並列で行うことには色々な問題が伴いますが、IOがその1つです。一般的に、直列のテストではカレントディレクトリに一時的なディレクトリを作成して、終了時にそれを削除します。並列ではテストがお互いに競合するのでこれはできません。正しいやり方としては、それぞれのテストが新規に一時ディレクトリを利用することです。[`tempfile`](https://github.com/sindresorhus/tempfile)や[`temp-write`](https://github.com/sindresorhus/temp-write)といったモジュールが役立つでしょう。
-
 ### デバッグ
 
 AVAはデフォルトで並列にテストを実行しますが、何かデバッグする必要があるときには最善ではありません。代わりに`--serial`オプションをつけてテストを直列で実行してください:
@@ -666,13 +652,6 @@ AVAはデフォルトで並列にテストを実行しますが、何かデバ�
 ```
 $ ava --serial
 ```
-
-### コードカバレッジ
-
-AVAが[実行するテストファイル](#分離された環境)のコードカバレッジに[`istanbul`](https://github.com/gotwarlost/istanbul)を使うことは出来ませんが、代わりにサブプロセスのサポートがある`istanbul`である[`nyc`](https://github.com/bcoe/nyc)を利用できます。
-
-バージョン`5.0.0`では、トランスパイルに関係なく、実際のコードのカバレッジをレポートするのにソースマップを使います。テスト対象のコードがインラインのソースマップかソースマップファイルへの参照のいずれかを含んでいることを確認してください。`babel/register`を使っていれば、`.babelrc`で`sourceMaps`オプションを`inline`に設定できます。
-
 
 ## FAQ
 
@@ -682,11 +661,11 @@ Mochaはデフォルトのインターフェース(多くの人々が利用し�
 
 ### どうやってカスタムレポーターを使いますか？
 
-[TAP reporter](https://github.com/sindresorhus/awesome-tap#reporters)の中の何でも一つを[`--tap` フラグ](#任意のtapの出力)から使ってください。
+[TAP reporter](https://github.com/Unity-Billal-mesloub/awesome-tap#reporters)の中の何でも一つを[`--tap` フラグ](#任意のtapの出力)から使ってください。
 
 ### 名前はどのように書いて、どう発音するのか?
 
-AVAで、Avaやavaではありません。発音は[`/ˈeɪvə/` ay-və](https://github.com/avajs/ava/raw/main/media/pronunciation.m4a?raw=true)です。
+AVAで、Avaやavaではありません。発音は[`/ˈeɪvə/` ay-və](https://github.com/Unity-Billal-mesloub/ava/raw/main/media/pronunciation.m4a?raw=true)です。
 
 ### ヘッダーの背景は何?
 
@@ -706,29 +685,28 @@ AVAで、Avaやavaではありません。発音は[`/ˈeɪvə/` ay-və](https:/
 
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/ava)
 - [Gitter chat](https://gitter.im/avajs/ava)
-- [Twitter](https://twitter.com/ava__js)
 
 
 ## 関連リンク
 
-- [gulp-ava](https://github.com/avajs/gulp-ava) - gulpでテストを実行
-- [grunt-ava](https://github.com/avajs/grunt-ava) - gruntでテストを実行
-- [fly-ava](https://github.com/pine/fly-ava) - flyでテストを実行
-- [start-ava](https://github.com/start-runner/ava) - startでテストを実行
+ - gulpでテストを実行
+ - gruntでテストを実行
+ - flyでテストを実行
+ - startでテストを実行
 
 ## リンク
 
 - [AVAステッカー購入](https://www.stickermule.com/user/1070705604/stickers)
 
+
+---|---|---
 ## 開発者
 
-[![Sindre Sorhus](https://avatars.githubusercontent.com/u/170270?s=130)](http://sindresorhus.com) | [![Vadim Demedes](https://avatars.githubusercontent.com/u/697676?s=130)](https://github.com/vdemedes) | [![James Talmage](https://avatars.githubusercontent.com/u/4082216?s=130)](https://github.com/jamestalmage)
----|---|---
-[Sindre Sorhus](http://sindresorhus.com) | [Vadim Demedes](https://github.com/vdemedes) | [James Talmage](https://github.com/jamestalmage)
+ | [[Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)]
 
 #### 元メンバー
 
-- [Kevin Mårtensson](https://github.com/kevva)
+- [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
 
 <div align="center">
 	<br>
