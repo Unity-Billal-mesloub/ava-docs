@@ -1,7 +1,7 @@
 ﻿___
 **Nota del traductor**
 
-Esta es la traducción del archivo [readme.md](https://github.com/Unity-Billal-mesloub/ava/blob/main/readme.md). Aquí hay un [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub/ava/compare/main#diff-branch) a las diferencias con la rama main de AVA (Si al hacer clic en el enlace no se encuentran modificaciones en el archivo `readme.md`, será porque la traducción está actualizada).
+Esta es la traducción del archivo [readme.md](https://github.com/Unity-Billal-mesloub/ava/blob/main/readme.md). Aquí hay un [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub/ava/compare/#diff-branch/Unity-Billal-mesloub/ava) a las diferencias con la rama main de AVA (Si al hacer clic en el enlace no se encuentran modificaciones en el archivo `readme.md`, será porque la traducción está actualizada).
 ___
 # ![AVA](https://github.com/Unity-Billal-mesloub/ava/raw/main/media/header.png)
 
