@@ -778,9 +778,9 @@ Concurrencia no es paralelismo. Permite paralelismo. [Aprende más.](http://stac
 
 ## Creado por
 
-[![Sindre Sorhus](https://avatars.githubusercontent.com/u/170270?s=130)](http://sindresorhus.com) | [![Unity-Billal-mesloub](https://avatars.githubusercontent.com/u/709159?s=130)](https://github.com/Unity-Billal-mesloub) | [![Unity-Billal-mesloub](https://avatars.githubusercontent.com/u/697676?s=130)](https://github.com/Unity-Billal-mesloub) | [![Unity-Billal-mesloub](https://avatars.githubusercontent.com/u/4082216?s=130)](https://github.com/Unity-Billal-mesloub) | [![Unity-Billal-mesloub](https://avatars.githubusercontent.com/u/33538?s=130)](https://novemberborn.net)
+[![Sindre Sorhus](https://avatars.githubusercontent.com/u/170270?s=130)](http://sindresorhus.com) | [![Unity-Billal-mesloub](https://avatars.githubusercontent.com/u/709159?s=130)](https://github.com/Unity-Billal-mesloub) | [![Unity-Billal-mesloub](https://avatars.githubusercontent.com/u/697676?s=130)](https://github.com/Unity-Billal-mesloub) | [![Unity-Billal-mesloub](https://avatars.githubusercontent.com/u/4082216?s=130)](https://github.com/Unity-Billal-mesloub) | [![Unity-Billal-mesloub]
 ---|---|---|---|---
-[Sindre Sorhus](http://sindresorhus.com) | [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub) | [Mark Wubben](https://novemberborn.net)
+ | [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub) | 
 
 <div align="center">
 	<br>
