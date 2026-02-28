@@ -1,10 +1,10 @@
 ___
 **역자주**
 
-이 문서는 [readme.md](https://github.com/avajs/ava/blob/main/readme.md)의 한국어 번역입니다. [이곳](https://github.com/avajs/ava/compare/71404c23302d825095659c70cb9a1b08251697ad...main#diff-0730bb7c2e8f9ea2438b52e419dd86c9)에서 AVA의 master 브랜치와 이 문서의 차이를 확인할 수 있습니다. (만약 차이가 없다면 문서가 최신 버전임을 의미합니다)
+이 문서는 [readme.md](https://github.com/Unity-Billal-mesloub/ava/blob/main/readme.md)의 한국어 번역입니다. [이곳](https://github.com/avajs/ava/compare/71404c23302d825095659c70cb9a1b08251697ad...main#diff-0730bb7c2e8f9ea2438b52e419dd86c9)에서 AVA의 master 브랜치와 이 문서의 차이를 확인할 수 있습니다. (만약 차이가 없다면 문서가 최신 버전임을 의미합니다)
 ___
 
-[![AVA](https://github.com/avajs/ava/raw/main/media/header.png)](https://avajs.dev)
+[![AVA](https://github.com/Unity-Billal-mesloub/ava/raw/main/media/header.png)](https://avajs.dev)
 
 AVA는 Node.js를 위한 테스트 러너로, 간결한 API, 상세한 에러 출력, 새로운 언어 기능 수용 및 프로세스 분리를 통해 확신을 갖고 개발할 수 있도록 해 줍니다 🚀.
 
@@ -104,7 +104,7 @@ npx ava --watch
 
 ## Node.js 지원
 
-AVA는 [Node.js에서 지원하는](https://github.com/nodejs/Release#release-schedule) 모든 메이저 버전을 지원합니다.
+AVA는 [Node.js에서 지원하는](https://github.com/Unity-Billal-mesloub/Release#release-schedule) 모든 메이저 버전을 지원합니다.
 
 더 많은 정보를 위해 [지원하는 Node.js 버전](docs/support-statement.md)을 참고하세요.
 
@@ -148,7 +148,7 @@ AVA는 CI 환경이 병렬 빌드를 지원하는지 여부를 자동으로 감�
 
 ### 빠지기 쉬운 함정
 
-AVA를 사용하는 동안 경험할 수 있는 [빠지기 쉬운 함정](docs/08-common-pitfalls.md) 목록이 점점 늘어나고 있습니다. 일반적이라고 생각되는 문제가 발생하면 [이 이슈](https://github.com/avajs/ava/issues/404)에 코멘트를 남겨주세요.
+AVA를 사용하는 동안 경험할 수 있는 [빠지기 쉬운 함정](docs/08-common-pitfalls.md) 목록이 점점 늘어나고 있습니다. 일반적이라고 생각되는 문제가 발생하면 [이 이슈](https://github.com/Unity-Billal-mesloub/ava/issues)에 코멘트를 남겨주세요.
 
 ### 레시피
 
@@ -209,32 +209,28 @@ AVA로 씁니다 (Ava, ava가 아닙니다.)
 
 ## 관련된 프로젝트
 
-- [eslint-plugin-ava](https://github.com/avajs/eslint-plugin-ava) — AVA 테스트를 위한 Lint 규칙들
-- [@ava/typescript](https://github.com/avajs/typescript) — TypeScript 프로젝트 테스트
-- [@ava/cooperate](https://github.com/avajs/cooperate) — 테스트 파일 간의 협업을 가능하게 만드는 Low-level primitives.
-- [@ava/get-port](https://github.com/avajs/get-port) — 테스팅 중의 포트 예약 (reserve)
+- [eslint-plugin-ava](https://github.com/Unity-Billal-mesloub/eslint-plugin-ava) — AVA 테스트를 위한 Lint 규칙들
+- [@ava/typescript](https://github.com/Unity-Billal-mesloub/typescript) — TypeScript 프로젝트 테스트
+- [@ava/cooperate](https://github.com/Unity-Billal-mesloub/cooperate) — 테스트 파일 간의 협업을 가능하게 만드는 Low-level primitives.
+- [@ava/get-port](https://github.com/Unity-Billal-mesloub/get-port) — 테스팅 중의 포트 예약 (reserve)
 
 ## 링크 목록
 
 - [AVA 스티커, 티셔츠 등 구매하기](https://www.redbubble.com/people/sindresorhus/works/30330590-ava-logo)
-- [Awesome 리스트](https://github.com/avajs/awesome-ava)
+- [Awesome 리스트](https://github.com/Unity-Billal-mesloub/awesome-ava)
 - [AVA가 마음에 드세요? 기부하기](https://opencollective.com/ava)
-- [더 알아보기…](https://github.com/avajs/awesome-ava)
+- [더 알아보기…](https://github.com/Unity-Billal-mesloub/awesome-ava)
 
 ## 팀
 
-[![Mark Wubben](https://github.com/novemberborn.png?size=100)](https://github.com/novemberborn) | [![Sindre Sorhus](https://github.com/sindresorhus.png?size=100)](https://github.com/sindresorhus)
+[![Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
+
 ---|---
 [Mark Wubben](https://novemberborn.net) | [Sindre Sorhus](https://sindresorhus.com)
 
 ###### 이전 팀
 
-- [Kevin Mårtensson](https://github.com/kevva)
-- [James Talmage](https://github.com/jamestalmage)
-- [Juan Soto](https://github.com/sotojuan)
-- [Jeroen Engels](https://github.com/jfmengels)
-- [Vadim Demedes](https://github.com/vadimdemedes)
-
+- [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
 
 <div align="center">
 	<br>
