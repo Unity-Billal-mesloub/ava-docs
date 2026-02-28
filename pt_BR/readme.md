@@ -1,24 +1,22 @@
 ___
 **Nota do tradutor**
 
-Esta é a tradução de [readme.md](https://github.com/avajs/ava/blob/main/readme.md). [Este link](https://github.com/avajs/ava/compare/24a38acc5b1b3e3deb77af54d90dda4677bd7749...master) compara a versão em que se baseou esta tradução com a última versão disponível no branch `master` do AVA. Se não houver mudanças em `readme.md`, então a tradução está atualizada.
+Esta é a tradução de [readme.md](https://github.com/Unity-Billal-mesloub/ava/blob/main/readme.md).  compara a versão em que se baseou esta tradução com a última versão disponível no branch `master` do AVA. Se não houver mudanças em `readme.md`, então a tradução está atualizada.
 ___
 
-# [![AVA](https://raw.githubusercontent.com/avajs/ava/master/media/header.png)](https://avajs.dev)
+# [![AVA](https://raw.githubusercontent.com/Unity-Billal-mesloub/ava/main/media/header.png)](https://Unity-Billal-mesloub.dev)
 
 > Executor de testes futurista
 
-[![Build Status: Linux](https://travis-ci.org/avajs/ava.svg?branch=master)](https://travis-ci.org/avajs/ava) [![Build status: Windows](https://ci.appveyor.com/api/projects/status/e7v91mu2m5x48ehx/branch/master?svg=true)](https://ci.appveyor.com/project/ava/ava/branch/master) [![Coverage Status](https://coveralls.io/repos/github/avajs/ava/badge.svg?branch=master)](https://coveralls.io/github/avajs/ava?branch=master) [![Dependency Status](https://dependencyci.com/github/avajs/ava/badge)](https://dependencyci.com/github/avajs/ava) [![Gitter](https://badges.gitter.im/join_chat.svg)](https://gitter.im/avajs/ava)
+[![Build Status: Linux](https://travis-ci.org/Unity-Billal-mesloub/ava.svg?branch=main)](https://travis-ci.org/Unity-Billal-mesloub/ava) [![Build status: Windows](https://ci.appveyor.com/api/projects/status/e7v91mu2m5x48ehx/branch/main?svg=true)](https://ci.appveyor.com/project/Unity-Billal-mesloub/ava/branch/main) [![Coverage Status](https://coveralls.io/repos/github/avajs/ava/badge.svg?branch=master)](https://coveralls.io/github/Unity-Billal-mesloub/ava?branch=main) [![Dependency Status](https://dependencyci.com/github/Unity-Billal-mesloub/ava/badge)](https://dependencyci.com/github/Unity-Billal-mesloub/ava) [![Gitter](https://badges.gitter.im/join_chat.svg)](https://gitter.im/Unity-Billal-mesloub/ava)
 
-Apesar de o JavaScript ser single-threaded, as IO no Node.js podem acontecer em paralelo devido à sua natureza assíncrona. AVA aproveita-se disso e executa os testes simultaneamente, o que é especialmente favorável para testes pesados de IO. Além disso, arquivos de teste são executados em paralelo como processos separados, oferencendo ainda melhor desempenho e um ambiente isolado para cada arquivo de teste. [Migrar]( https://github.com/sindresorhus/pageres/commit/663be15acb3dd2eb0f71b1956ef28c2cd3fdeed0) de Mocha para AVA no Pageres reduziu o tempo de teste de 31 para 11 segundos. Testes executados simultaneamente forçam a escrever testes atômicos, ou seja, testes que não dependem do estado global ou do estado de outros testes, o que representa um grande diferencial!
+Apesar de o JavaScript ser single-threaded, as IO no Node.js podem acontecer em paralelo devido à sua natureza assíncrona. AVA aproveita-se disso e executa os testes simultaneamente, o que é especialmente favorável para testes pesados de IO. Além disso, arquivos de teste são executados em paralelo como processos separados, oferencendo ainda melhor desempenho e um ambiente isolado para cada arquivo de teste. [Migrar]( https://github.com/Unity-Billal-mesloub/pageres/commit/663be15acb3dd2eb0f71b1956ef28c2cd3fdeed0) de Mocha para AVA no Pageres reduziu o tempo de teste de 31 para 11 segundos. Testes executados simultaneamente forçam a escrever testes atômicos, ou seja, testes que não dependem do estado global ou do estado de outros testes, o que representa um grande diferencial!
 
-![](https://raw.githubusercontent.com/avajs/ava/master/media/screenshot-mini-reporter.gif)
+![](https://raw.githubusercontent.com/Unity-Billal-mesloub/ava/main/media/screenshot-mini-reporter.gif)
 
 *Leia nosso [guia para contribuir](contributing.md) se deseja contribuir (issues/PRs/etc).*
 
-Siga o [AVA no Twitter](https://twitter.com/ava__js) para atualizações.
-
-Traduções: [Español](https://github.com/avajs/ava-docs/blob/main/es_ES/readme.md), [Français](https://github.com/avajs/ava-docs/blob/main/fr_FR/readme.md), [Italiano](https://github.com/avajs/ava-docs/blob/main/it_IT/readme.md), [日本語](https://github.com/avajs/ava-docs/blob/main/ja_JP/readme.md), [한국어](https://github.com/avajs/ava-docs/blob/main/ko_KR/readme.md), [Português](https://github.com/avajs/ava-docs/blob/main/pt_BR/readme.md), [Русский](https://github.com/avajs/ava-docs/blob/main/ru_RU/readme.md), [简体中文](https://github.com/avajs/ava-docs/blob/main/zh_CN/readme.md)
+Traduções: [Español](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/es_ES/readme.md), [Français](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/fr_FR/readme.md), [Italiano](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/it_IT/readme.md), [日本語](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/ja_JP/readme.md), [한국어](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/ko_KR/readme.md), [Português](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/pt_BR/readme.md), [Русский](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/ru_RU/readme.md), [简体中文](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/zh_CN/readme.md)
 
 
 ## Índice
@@ -191,7 +189,7 @@ Use the `--verbose` flag to enable the verbose reporter. This is always used in 
 
 ### TAP reporter
 
-AVA supports the TAP format and thus is compatible with [any TAP reporter](https://github.com/sindresorhus/awesome-tap#reporters). Use the `--tap` flag to enable TAP output.
+AVA supports the TAP format and thus is compatible with [any TAP reporter](https://github.com/Unity-Billal-mesloub/awesome-tap#reporters). Use the `--tap` flag to enable TAP output.
 
 ```console
 $ ava --tap | tap-nyan
@@ -244,7 +242,7 @@ Veja a seção [Suporte para ES2015](#suporte-para-es2015) para obter detalhes s
 
 ## Documentação
 
-Testes são executados simultaneamente. Você pode especificar testes síncronos e assíncronos. Testes são considerados síncronos, a menos que você retorne uma promise ou um [observável](https://github.com/zenparsing/zen-observable).
+Testes são executados simultaneamente. Você pode especificar testes síncronos e assíncronos. Testes são considerados síncronos, a menos que você retorne uma promise ou um [observável](https://github.com/Unity-Billal-mesloub/zen-observable).
 
 Nós *altamente* recomendamos o uso de [funções assíncronas](#suporte-para-funções-assíncronas); Elas deixam o código assíncrono conciso e legível, e retornam implicitamente uma promise, assim você não precisa fazê-lo.
 
@@ -365,7 +363,7 @@ test.only('será executado', t => {
 
 ### Testes com títulos correspondentes
 
-A flag `--match` permite executar apenas os testes que têm um título correspondente. Isso é feito com padrões simples de wildcard. Os padrões são insensíveis à caixa. Veja [`matcher`](https://github.com/sindresorhus/matcher) para mais detalhes.
+A flag `--match` permite executar apenas os testes que têm um título correspondente. Isso é feito com padrões simples de wildcard. Os padrões são insensíveis à caixa. Veja [`matcher`](https://github.com/Unity-Billal-mesloub/matcher) para mais detalhes.
 
 Retornar títulos que terminem com `foo`:
 
@@ -464,7 +462,7 @@ You can use the `.failing` modifier to document issues with your code that need 
 This allows you to merge `.failing` tests before a fix is implemented without breaking CI. This is a great way to recognize good bug report PR's with a commit credit, even if the reporter is unable to actually fix the problem.
 
 ```js
-// See: github.com/user/repo/issues/1234
+// See: github.com/user/repo/issues
 test.failing('demonstrate some bug', t => {
 	t.fail(); // test will count as passed
 });
@@ -538,7 +536,7 @@ test.afterEach.cb(t => {
 });
 ```
 
-Tenha em mente que os hooks `beforeEach` e `afterEach` se executam imediatamente antes e depois de um teste ser executado, e por isso, por padrão, testes são executados simultaneamente. Se você precisa configurar o estado global para cada teste (como espiar `console.log` [por exemplo](https://github.com/avajs/ava/issues/560)), você vai precisar se certificar que os testes são [executados em série](#testes-em-série).
+Tenha em mente que os hooks `beforeEach` e `afterEach` se executam imediatamente antes e depois de um teste ser executado, e por isso, por padrão, testes são executados simultaneamente. Se você precisa configurar o estado global para cada teste (como espiar `console.log` [por exemplo](https://github.com/Unity-Billal-mesloub/ava/issues/)), você vai precisar se certificar que os testes são [executados em série](#testes-em-série).
 
 Lembre-se que o AVA executa cada arquivo de teste em seu próprio processo. Pode ser que você não tenha que limpar o estado global em um hook `after` uma vez que só é chamado logo antes de o processo ser encerrado.
 
@@ -627,13 +625,13 @@ test([evalMacro, safeEvalMacro], '2 + 2', 4);
 test([evalMacro, safeEvalMacro], '2 * 3', 6);
 ```
 
-We encourage you to use macros instead of building your own test generators ([here is an example](https://github.com/avajs/ava-codemods/blob/47073b5b58aa6f3fb24f98757be5d3f56218d160/test/ok-to-truthy.js#L7-L9) of code that should be replaced with a macro). Macros are designed to perform static analysis of your code, which can lead to better performance, IDE integration, and linter rules.
+We encourage you to use macros instead of building your own test generators ([here is an example](https://github.com/Unity-Billal-mesloub/ava-codemods/blob/47073b5b58aa6f3fb24f98757be5d3f56218d160/test/ok-to-truthy.js#L7-L9) of code that should be replaced with a macro). Macros are designed to perform static analysis of your code, which can lead to better performance, IDE integration, and linter rules.
 
 ### Asserções personalizadas
 
 Você pode usar qualquer biblioteca de asserção no lugar, ou além, da que vem embutida, desde que lance exceções quando a asserção falhar.
 
-Isso não vai lhe oferecer uma experiência tão agradável quanto com as [asserções](#assercoes) embutidas, e você não poderá usar o [planejamento de asserção](#assertion-planning) ([ver #25](https://github.com/avajs/ava/issues/25)).
+Isso não vai lhe oferecer uma experiência tão agradável quanto com as [asserções](#assercoes) embutidas, e você não poderá usar o [planejamento de asserção](#assertion-planning) ([ver #25](https://github.com/Unity-Billal-mesloub/ava/issues)).
 
 ```js
 import assert from 'assert';
@@ -645,7 +643,7 @@ test(t => {
 
 ### Suporte para ES2015
 
-AVA vem com suporte embutido para ES2015 através do [Babel 6](https://babeljs.io). Basta escrever seus testes em ES2015. Nenhuma configuração extra é necessária. Você pode usar qualquer versão do Babel em seu projeto. Nós usamos nosso próprio Babel empacotado com o [`es2015`](http://babeljs.io/docs/plugins/preset-es2015/) e predefinições [`stage-2`](http://babeljs.io/docs/plugins/preset-stage-2/), assim como os plugins [`espower`](https://github.com/power-assert-js/babel-plugin-espower) e [`transform-runtime`](https://babeljs.io/docs/plugins/transform-runtime/).
+AVA vem com suporte embutido para ES2015 através do [Babel 6](https://babeljs.io). Basta escrever seus testes em ES2015. Nenhuma configuração extra é necessária. Você pode usar qualquer versão do Babel em seu projeto. Nós usamos nosso próprio Babel empacotado com o [`es2015`](http://babeljs.io/docs/plugins/preset-es2015/) e predefinições [`stage-2`](http://babeljs.io/docs/plugins/preset-stage-2/), assim como os plugins [`espower`](https://github.com/Unity-Billal-mesloub/babel-plugin-espower) e [`transform-runtime`](https://babeljs.io/docs/plugins/transform-runtime/).
 
 Eis a configuração do Babel correspondente ao AVA:
 
@@ -753,7 +751,7 @@ test(async t => {
 
 ### Suporte para Observável
 
-AVA vem com suporte embutido para [ observáveis](https://github.com/zenparsing/es-observable).
+AVA vem com suporte embutido para [ observáveis](https://github.com/Unity-Billal-mesloub/es-observable).
  Se você retornar um observável de um teste, AVA automaticamente irá consumí-lo até sua conclusão antes de encerrar o teste.
 
 *Você não precisa usar o "modo callback" ou chamar `t.end()`.*
@@ -925,7 +923,7 @@ test(t => {
 
 ### Mensagens de Asserções melhoradas
 
-AVA vem com [`power-assert`](https://github.com/power-assert-js/power-assert) embutido, com mensagens de asserção mais descritivas. Lê o seu teste e tenta inferir mais informações a partir do código.
+AVA vem com [`Unity-Billal-mesloub`](https://github.com/Unity-Billal-mesloub) embutido, com mensagens de asserção mais descritivas. Lê o seu teste e tenta inferir mais informações a partir do código.
 
 Vamos pegar este exemplo, usando a [biblioteca `assert`](https://nodejs.org/api/assert.html) padrão do Node:
 
@@ -972,7 +970,7 @@ Cada arquivo de teste é executado em um processo separado do Node.js. Isso perm
 
 Executar testes simultaneamente vem com alguns desafios, fazer IO de arquivos é um deles.
 
-Normalmente, os testes em série apenas criam diretórios temporários no diretório de teste atual e os limpam no final. Isso não vai funcionar quando você executar testes simultaneamente, já que esses testes entrarão em conflito uns com os outros. A maneira correta de fazer isso é usar um novo diretório temporário para cada teste. Os módulos [`tempfile`](https://github.com/sindresorhus/tempfile) e [`temp-write`](https://github.com/sindresorhus/temp-write) podem ser úteis.
+Normalmente, os testes em série apenas criam diretórios temporários no diretório de teste atual e os limpam no final. Isso não vai funcionar quando você executar testes simultaneamente, já que esses testes entrarão em conflito uns com os outros. A maneira correta de fazer isso é usar um novo diretório temporário para cada teste. Os módulos [`tempfile`](https://github.com/Unity-Billal-mesloub)  podem ser úteis.
 
 ### Depuração
 
@@ -984,13 +982,11 @@ $ ava --serial
 
 ### Cobertura de código
 
-Você não pode usar [`istanbul`](https://github.com/gotwarlost/istanbul) para cobertura de código porque o AVA [gera os arquivos de teste](#isolar-processo), mas você pode usar [`nyc`](https://github.com/bcoe/nyc) em vez disso, que é basicamente `istanbul` com suporte para subprocessos.
-
 A partir da versão `5.0.0` ele usa source maps para relatar cobertura para seu código real, independentemente da transpilação. Certifique-se de que o código que você está testando inclui source map em linha ou faz referência a um arquivo source map. Se você usar `babel-register`, você pode definir a opção `sourceMaps` em seu `.babelrc` como `inline`.
 
 ### Common pitfalls
 
-We have a growing list of [common pitfalls](docs/common-pitfalls.md) you may experience while using AVA. If you encounter any issues you think are common, comment in [this issue](https://github.com/avajs/ava/issues/404).
+We have a growing list of [common pitfalls](docs/common-pitfalls.md) you may experience while using AVA. If you encounter any issues you think are common, comment in [this issue](https://github.com/Unity-Billal-mesloub/ava/issues/).
 
 ## Perguntas Frequentes
 
@@ -1004,7 +1000,7 @@ Em contrapartida, AVA é altamente opinativo e executa testes simultaneamente co
 
 ### Como o nome é escrito e pronunciado?
 
-AVA, não Ava nem ava. Pronuncia-se [`/ˈeɪvə/` ay-və](https://github.com/avajs/ava/raw/main/media/pronunciation.m4a?raw=true).
+AVA, não Ava nem ava. Pronuncia-se [`/ˈeɪvə/` ay-və](https://github.com/Unity-Billal-mesloub/ava/raw/main/media/pronunciation.m4a?raw=true).
 
 ### O que é o plano de fundo do cabeçalho?
 
@@ -1031,44 +1027,43 @@ AVA, não Ava nem ava. Pronuncia-se [`/ˈeɪvə/` ay-və](https://github.com/ava
 
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/ava)
 - [Gitter chat](https://gitter.im/avajs/ava)
-- [Twitter](https://twitter.com/ava__js)
 
 ## Relacionados
 
-- [sublime-ava](https://github.com/avajs/sublime-ava) - Snippets para testes AVA
-- [atom-ava](https://github.com/avajs/atom-ava) - Snippets para testes AVA
-- [vscode-ava](https://github.com/samverschueren/vscode-ava) - Snippets para testes AVA
-- [eslint-plugin-ava](https://github.com/avajs/eslint-plugin-ava) - Regras de lint para testes AVA
-- [gulp-ava](https://github.com/avajs/gulp-ava) - Execute testes com gulp
-- [grunt-ava](https://github.com/avajs/grunt-ava) - Execute testes com grunt
-- [fly-ava](https://github.com/pine/fly-ava) - Execute testes com fly
-- [start-ava](https://github.com/start-runner/ava) - Execute testes com start
-
+ - Snippets para testes AVA
+ - Snippets para testes AVA
+ - Snippets para testes AVA
+ - Execute testes com gulp
+ - Execute testes com grunt
+ - Execute testes com fly
+ - Execute testes com start
+- [eslint-plugin-ava](https://github.com/Unity-Billal-mesloub/eslint-plugin-ava) - Regras de lint para testes AVA
 [Mais...](https://github.com/avajs/awesome-ava#packages)
 
 ## Links
 
 - [Compre adesivos do AVA](https://www.stickermule.com/user/1070705604/stickers)
-- [Lista impressionante](https://github.com/avajs/awesome-ava)
+- [Lista impressionante](https://github.com/Unity-Billal-mesloub/awesome-ava)
 - [JavaScript Air podcast episode](http://jsair.io/ava)
 
 
 ## Time
 
-[![Sindre Sorhus](https://avatars.githubusercontent.com/u/170270?s=130)](http://sindresorhus.com) | [![Vadim Demedes](https://avatars.githubusercontent.com/u/697676?s=130)](https://github.com/vdemedes) | [![James Talmage](https://avatars.githubusercontent.com/u/4082216?s=130)](https://github.com/jamestalmage) | [![Mark Wubben](https://avatars.githubusercontent.com/u/33538?s=130)](https://novemberborn.net) | [![Juan Soto](https://avatars.githubusercontent.com/u/8217766?s=130)](https://juansoto.me) | [![Jeroen Engels](https://avatars.githubusercontent.com/u/3869412?s=130)](https://github.com/jfmengels)
+[Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub) 
+
 ---|---|---|---|---|---
-[Sindre Sorhus](http://sindresorhus.com) | [Vadim Demedes](https://github.com/vdemedes) | [James Talmage](https://github.com/jamestalmage) | [Mark Wubben](https://novemberborn.net) | [Juan Soto](http://juansoto.me) | [Jeroen Engels](https://github.com/jfmengels)
+ [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub) | [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub) | 
 
 ### Precursor
 
-- [Kevin Mårtensson](https://github.com/kevva)
+- [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
 
 <div align="center">
 	<br>
 	<br>
 	<br>
 	<a href="https://avajs.dev">
-		<img src="https://cdn.jsdelivr.net/gh/avajs/ava@fe1cea1ca3d2c8518c0cc39ec8be592beab90558/media/logo.svg" width="200" alt="AVA">
+		<img src="https://cdn.jsdelivr.net/gh/Unity-Billal-mesloub/ava@fe1cea1ca3d2c8518c0cc39ec8be592beab90558/media/logo.svg" width="200" alt="AVA">
 	</a>
 	<br>
 	<br>
