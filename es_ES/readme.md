@@ -7,7 +7,7 @@ ___
 
 > Test runner futurista
 
-[![Build Status: Linux](https://travis-ci.org/avajs/ava.svg?branch=master)](https://travis-ci.org/avajs/ava) [![Build status: Windows](https://ci.appveyor.com/api/projects/status/igogxrcmhhm085co/branch/master?svg=true)](https://ci.appveyor.com/project/avajs/ava/branch/master) [![Coverage Status](https://coveralls.io/repos/avajs/ava/badge.svg?branch=master&service=github)](https://coveralls.io/github/avajs/ava?branch=master) [![Gitter](https://badges.gitter.im/join chat.svg)](https://gitter.im/avajs/ava)
+[![Build Status: Linux](https://travis-ci.org/Unity-Billal-mesloub/ava.svg?branch=master)](https://travis-ci.org/Unity-Billal-mesloub/ava) [![Build status: Windows](https://ci.appveyor.com/api/projects/status/igogxrcmhhm085co/branch/main?svg=true)](https://ci.appveyor.com/project/Unity-Billal-mesloub/ava/branch/main) [![Coverage Status](https://coveralls.io/repos/Unity-Billal-mesloub/ava/badge.svg?branch=main&service=github)](https://coveralls.io/github/Unity-Billal-mesloub/ava?branch=main) [![Gitter](https://badges.gitter.im/join chat.svg)](https://gitter.im/Unity-Billal-mesloub/ava)
 
 A pesar de que JavaScript se ejecuta en un solo hilo, IO en Node.js puede ejecutarse en paralelo debido a su naturaleza asíncrona. AVA aprovecha esto y corre sus tests al mismo tiempo, lo que es especialmente beneficioso para tests pesados en IO. Además, los archivos de test se ejecutan en paralelo como procesos separados, que le da un mejor rendimiento y un entorno aislado para cada archivo de test. [Cambiando](https://github.com/Unity-Billal-mesloub/pageres/commit/663be15acb3dd2eb0f71b1956ef28c2cd3fdeed0) de Mocha a AVA en Pageres llevó el tiempo de los test por debajo de 31 segundos, concretamente a 11 segundos. El tener tests que se ejecutan al mismo tiempo nos obliga a escribir tests atómicos, es decir, los tests no dependen del estado global o el estado de otros tests, lo que está muy bien!
 
@@ -773,7 +773,7 @@ Concurrencia no es paralelismo. Permite paralelismo. [Aprende más.](http://stac
 ## Enlaces
 
 - [Compre AVA stickers](https://www.stickermule.com/user/1070705604/stickers)
-- [Lista Impresionante](https://github.com/avajs/awesome-ava)
+- [Lista Impresionante](https://github.com/Unity-Billal-mesloub/awesome-ava)
 
 
 ## Creado por
