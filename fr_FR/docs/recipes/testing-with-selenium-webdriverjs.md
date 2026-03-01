@@ -1,7 +1,7 @@
 ___
 **Note du traducteur**
 
-C'est la traduction du fichier [testing-with-selenium-webdriverjs.md](https://github.com/avajs/ava/blob/main/docs/recipes/testing-with-selenium-webdriverjs.md). Voici un [lien](https://github.com/avajs/ava/compare/576f534b345259055c95fa0c2b33bef10847a2af...main#diff-b3079259ee3cd6fee65018e738d4215c0431556b4ade8f459d81892391ae6651) vers les différences avec le master de AVA (Si en cliquant sur le lien, vous ne trouvez pas le fichier `testing-with-selenium-webdriverjs.md` parmi les fichiers modifiés, vous pouvez donc en déduire que la traduction est à jour).
+C'est la traduction du fichier [testing-with-selenium-webdriverjs.md](https://github.com/Unity-Billal-mesloub/ava/blob/main/docs/recipes/testing-with-selenium-webdriverjs.md).  vers les différences avec le master de AVA (Si en cliquant sur le lien, vous ne trouvez pas le fichier `testing-with-selenium-webdriverjs.md` parmi les fichiers modifiés, vous pouvez donc en déduire que la traduction est à jour).
 ___
 # Configuration d'AVA avec Selenium webDriverjs
 
