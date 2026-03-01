@@ -1,22 +1,20 @@
 ___
 **备注**
 
-这是 [readme.md](https://github.com/avajs/ava/blob/main/readme.md) 的简体中文翻译。这个[链接](https://github.com/avajs/ava/compare/67bf0472133041f59ef469f737b696de05ae316b...main#diff-0730bb7c2e8f9ea2438b52e419dd86c9) 用来查看本翻译与 AVA 的 master 分支是否有差别（如果你没有看到 `readme.md` 发生变化，那就意味着这份翻译文档是最新的）。
+这是 [readme.md](https://github.com/avajs/ava/blob/main/readme.md) 的简体中文翻译。这个[链接] 用来查看本翻译与 AVA 的 main 分支是否有差别（如果你没有看到 `readme.md` 发生变化，那就意味着这份翻译文档是最新的）。
 ___
 
-# ![AVA](https://github.com/avajs/ava/raw/main/media/header.png)
+# ![AVA](https://github.com/Unity-Billal-mesloub/ava/raw/main/media/header.png)
 
 > 未来的测试运行器
 
-[![Build Status: Linux](https://travis-ci.org/avajs/ava.svg?branch=master)](https://travis-ci.org/avajs/ava) [![Build status: Windows](https://ci.appveyor.com/api/projects/status/igogxrcmhhm085co/branch/master?svg=true)](https://ci.appveyor.com/project/avajs/ava/branch/master) [![Coverage Status](https://coveralls.io/repos/avajs/ava/badge.svg?branch=master&service=github)](https://coveralls.io/github/avajs/ava?branch=master) [![Gitter](https://img.shields.io/badge/Gitter-Join_the_AVA_chat_%E2%86%92-00d06f.svg)](https://gitter.im/avajs/ava)
+[![Build Status: Linux](https://travis-ci.org/avajs/ava.svg?branch=master)](https://travis-ci.org/Unity-Billal-mesloub/ava) [![Build status: Windows](https://ci.appveyor.com/api/projects/status/igogxrcmhhm085co/branch/main?svg=true)](https://ci.appveyor.com/project/Unity-Billal-mesloub/ava/branch/main) [![Coverage Status](https://coveralls.io/repos/Unity-Billal-mesloub/ava/badge.svg?branch=main&service=github)](https://coveralls.io/github/Unity-Billal-mesloub/ava?branch=main) [![Gitter](https://img.shields.io/badge/Gitter-Join_the_AVA_chat_%E2%86%92-00d06f.svg)](https://gitter.im/Unity-Billal-mesloub/ava)
 
-虽然 JavaScript 是单线程，但在 Node.js 里由于其异步的特性使得 IO 可以并行。AVA 利用这个优点让你的测试可以并发执行，这对于 IO 繁重的测试特别有用。另外，测试文件可以在不同的进程里并行运行，让每一个测试文件可以获得更好的性能和独立的环境。在 Pageres 项目中从 Mocha [切换](https://github.com/sindresorhus/pageres/commit/663be15acb3dd2eb0f71b1956ef28c2cd3fdeed0) 到 AVA 让测试时间从 31 秒下降到 11 秒。测试并发执行强制你写原子测试，意味着测试不需要依赖全局状态或者其他测试的状态，这是一件非常好的事情。
+虽然 JavaScript 是单线程，但在 Node.js 里由于其异步的特性使得 IO 可以并行。AVA 利用这个优点让你的测试可以并发执行，这对于 IO 繁重的测试特别有用。另外，测试文件可以在不同的进程里并行运行，让每一个测试文件可以获得更好的性能和独立的环境。在 Pageres 项目中从 Mocha [切换](https://github.com/Unity-Billal-mesloub/pageres/commit/663be15acb3dd2eb0f71b1956ef28c2cd3fdeed0) 到 AVA 让测试时间从 31 秒下降到 11 秒。测试并发执行强制你写原子测试，意味着测试不需要依赖全局状态或者其他测试的状态，这是一件非常好的事情。
 
 *如果你想贡献（问题、PRs 等），请先阅读我们的[贡献向导](contributing.md)。*
 
-关注 [AVA 的 Twitter 账号](https://twitter.com/ava__js) 以获取最新信息。
-
-翻译：[Español](https://github.com/avajs/ava-docs/blob/main/es_ES/readme.md), [Français](https://github.com/avajs/ava-docs/blob/main/fr_FR/readme.md), [Italiano](https://github.com/avajs/ava-docs/blob/main/it_IT/readme.md), [日本語](https://github.com/avajs/ava-docs/blob/main/ja_JP/readme.md), [Português](https://github.com/avajs/ava-docs/blob/main/pt_BR/readme.md), [简体中文](https://github.com/avajs/ava-docs/blob/main/zh_CN/readme.md)
+翻译：[Español](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/es_ES/readme.md), [Français](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/fr_FR/readme.md), [Italiano](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/it_IT/readme.md), [日本語](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/ja_JP/readme.md), [Português](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/pt_BR/readme.md), [简体中文](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/zh_CN/readme.md)
 
 ## 目录
 
@@ -215,23 +213,23 @@ $ node --inspect node_modules/ava/profile.js some/test/file.js
 
 这是默认的报告器。
 
-<img src="https://github.com/avajs/ava/raw/main/media/mini-reporter.gif" width="460">
+<img src="https://github.com/Unity-Billal-mesloub/ava/raw/main/media/mini-reporter.gif" width="460">
 
 ### 详细报告器
 
 使用 `--verbose` 参数可以启用详细报告器。这在 CI 环境下始终会被启用，除非已经使用了 [TAP 报告器](#TAP报告器)
 
-<img src="https://github.com/avajs/ava/raw/main/media/verbose-reporter.png" width="294">
+<img src="https://github.com/Unity-Billal-mesloub/ava/raw/main/media/verbose-reporter.png" width="294">
 
 ### TAP报告器
 
-AVA 支持 TAP 格式，并且与 [任何 TAP 报告器](https://github.com/sindresorhus/awesome-tap#reporters) 相兼容。使用 `--tap` 选项来启用 TAP 输出。
+AVA 支持 TAP 格式，并且与 [任何 TAP 报告器](https://github.com/Unity-Billal-mesloub/awesome-tap#reporters) 相兼容。使用 `--tap` 选项来启用 TAP 输出。
 
 ```console
 $ ava --tap | tap-nyan
 ```
 
-<img src="https://github.com/avajs/ava/raw/main/media/tap-reporter.png" width="420">
+<img src="https://github.com/Unity-Billal-mesloub/ava/raw/main/media/tap-reporter.png" width="420">
 
 注意 TAP 报告器在 [监视模式](docs/recipes/watch-mode.md) 下不可用。
 
@@ -278,7 +276,7 @@ AVA 会自动去掉调用栈中不相关的行，让你能够更快地定位错�
 
 ## 文档
 
-测试是并发执行的，你可以选择同步或异步执行测试，在返回一个 promise 或 [observable](https://github.com/zenparsing/zen-observable) 时你才需要考虑使用同步。
+测试是并发执行的，你可以选择同步或异步执行测试，在返回一个 promise 或 [observable](https://github.com/Unity-Billal-mesloub/zen-observable) 时你才需要考虑使用同步。
 
 我们*强烈*推荐使用 [async 函数](#支持-async)，它让异步代码简洁更具可读性，并且它隐式返回一个 promise 让你无需手动创建。
 
@@ -399,7 +397,7 @@ test.only('will be run', t => {
 
 ### 运行匹配标题的测试
 
-`--match` 标志允许你只运行包含匹配标题的测试，这可以通过简单的通配模式来做到，模式是大小写敏感的，详情请看 [`matcher`](https://github.com/sindresorhus/matcher)。
+`--match` 标志允许你只运行包含匹配标题的测试，这可以通过简单的通配模式来做到，模式是大小写敏感的，详情请看 [`matcher`](https://github.com/Unity-Billal-mesloub/matcher)。
 
 匹配以 `foo` 结尾的标题：
 
@@ -549,7 +547,7 @@ test.afterEach.cb(t => {
 });
 ```
 
-请记住，`beforeEach` 和 `afterEach` 钩子在一个测试之前和之后运行，并且默认情况下测试是并发运行的，如果你需要为每个测试设置一个全局的状态（比如 `console.log` 的 spying [例子](https://github.com/avajs/ava/issues/560)），你需要确保这些测试是[串行运行](#串行运行测试)的。
+请记住，`beforeEach` 和 `afterEach` 钩子在一个测试之前和之后运行，并且默认情况下测试是并发运行的，如果你需要为每个测试设置一个全局的状态（比如 `console.log` 的 spying [例子](https://github.com/Unity-Billal-mesloub/ava/issues/)），你需要确保这些测试是[串行运行](#串行运行测试)的。
 
 记住，AVA 运行每个测试文件会有各自单独的进程，你可能不需要在 `after` 钩子中清理全局状态，因为它只会在进程退出前被调用。
 
@@ -638,13 +636,13 @@ test([evalMacro, safeEvalMacro], '2 + 2', 4);
 test([evalMacro, safeEvalMacro], '2 * 3', 6);
 ```
 
-我们鼓励用宏代替[此类](https://github.com/avajs/ava-codemods/blob/47073b5b58aa6f3fb24f98757be5d3f56218d160/test/ok-to-truthy.js#L7-L9)测试生成代码。宏的设计初衷是静态分析你的代码，因此有着更好的效率、IDE 集成以及校验规则。
+我们鼓励用宏代替[此类](https://github.com/Unity-Billal-mesloub/ava-codemods/blob/47073b5b58aa6f3fb24f98757be5d3f56218d160/test/ok-to-truthy.js#L7-L9)测试生成代码。宏的设计初衷是静态分析你的代码，因此有着更好的效率、IDE 集成以及校验规则。
 
 ### 自定义断言
 
 你可以使用其他断言库来替代内置的断言库，当断言失败可以让其抛出异常。
 
-但这样做的话你将得不到[内置断言库](#断言)的良好体验，同时你也将不会用到[断言计划](#断言计划） (『看#25](https://github.com/avajs/ava/issues/25))。
+但这样做的话你将得不到[内置断言库](#断言)的良好体验，同时你也将不会用到[断言计划](#断言计划） (『看#25](https://github.com/Unity-Billal-mesloub/ava/issues/))。
 
 ```js
 import assert from 'assert';
@@ -656,7 +654,7 @@ test(t => {
 
 ### 支持 ES2015
 
-AVA 通过 [Babel 6](https://babeljs.io) 内置支持 ES2015，只需要用 ES2015 的方式写你测试，不需要额外的配置。你可以在你的工程中使用任何的 Babel 版本，我们使用我们捆绑的 Babel，带有 [`es2015`](https://babeljs.io/docs/plugins/preset-es2015/) 和 [`stage-2`](https://babeljs.io/docs/plugins/preset-stage-2/) 设置，和 [`espower`](https://github.com/power-assert-js/babel-plugin-espower) 和 [`transform-runtime`](https://babeljs.io/docs/plugins/transform-runtime/) 插件一样。
+AVA 通过 [Babel 6](https://babeljs.io) 内置支持 ES2015，只需要用 ES2015 的方式写你测试，不需要额外的配置。你可以在你的工程中使用任何的 Babel 版本，我们使用我们捆绑的 Babel，带有 [`es2015`](https://babeljs.io/docs/plugins/preset-es2015/) 和 [`stage-2`](https://babeljs.io/docs/plugins/preset-stage-2/) 设置，和 [`espower`](https://github.com/Unity-Billal-mesloub/babel-plugin-espower) 和 [`transform-runtime`](https://babeljs.io/docs/plugins/transform-runtime/) 插件一样。
 
 类似的 Babel 配置同样适用于 AVA，如下：
 
@@ -706,7 +704,7 @@ AVA 通过 [Babel 6](https://babeljs.io) 内置支持 ES2015，只需要用 ES20
 }
 ```
 
-注意，AVA *总是*应用 [`espower`](https://github.com/power-assert-js/babel-plugin-espower) 和 [`transform-runtime`](https://babeljs.io/docs/plugins/transform-runtime/) 插件。
+注意，AVA *总是*应用 [`espower`](https://github.com/Unity-Billal-mesloub/babel-plugin-espower) 和 [`transform-runtime`](https://babeljs.io/docs/plugins/transform-runtime/) 插件。
 
 ### 支持 TypeScript
 
@@ -762,7 +760,7 @@ test(async t => {
 
 ### 支持 Observable
 
-AVA 自带对 [observables](https://github.com/zenparsing/es-observable) 的内置支持。如果你从测试中返回一个 observable，AVA 会自动消费它使其在测试结束前完成。
+AVA 自带对 [observables](https://github.com/Unity-Billal-mesloub/es-observable) 的内置支持。如果你从测试中返回一个 observable，AVA 会自动消费它使其在测试结束前完成。
 
 *你不需要使用 “callback 模式" 或者调用 `t.end()`。*
 
@@ -791,19 +789,19 @@ test.cb(t => {
 
 ### 可选的 TAP 输出
 
-AVA 可以通过 `--tap` 选项来生成 TAP 的输出，可以选择任意的 [TAP 报告](https://github.com/sindresorhus/awesome-tap#reporters)。
+AVA 可以通过 `--tap` 选项来生成 TAP 的输出，可以选择任意的 [TAP 报告](https://github.com/Unity-Billal-mesloub/awesome-tap#reporters)。
 
 ```console
 $ ava --tap | tap-nyan
 ```
 
-<img src="https://github.com/avajs/ava/raw/f62c13762d57b164a6c68175e57ec13e5e5241ac/media/tap-output.png" width="398">
+<img src="https://github.com/Unity-Billal-mesloub/ava/raw/f62c13762d57b164a6c68175e57ec13e5e5241ac/media/tap-output.png" width="398">
 
 ### 简明的堆栈跟踪
 
 AVA 会在堆栈跟踪信息里面自动移除不相关的行，让你更快地找到错误的原因。
 
-<img src="https://github.com/avajs/ava/raw/f62c13762d57b164a6c68175e57ec13e5e5241ac/media/stack-traces.png" width="300">
+<img src="https://github.com/Unity-Billal-mesloub/ava/raw/f62c13762d57b164a6c68175e57ec13e5e5241ac/media/stack-traces.png" width="300">
 
 ## API
 
@@ -935,7 +933,7 @@ test(t => {
 
 ### 强化断言信息
 
-AVA 自带内置的 [`power-assert`](https://github.com/power-assert-js/power-assert)，给你更多的描述性断言信息，它阅读你的测试代码并从中试图推断出更多信息。
+AVA 自带内置的 ，给你更多的描述性断言信息，它阅读你的测试代码并从中试图推断出更多信息。
 
 我们来举个例子，使用 Node 的标准 [`断言` 库](https://nodejs.org/api/assert.html)。
 
@@ -982,8 +980,7 @@ t.true(a.test(b) || b === c)
 
 并发运行测试面临着许多挑战，文件的 IO 操作就是其中一个。
 
-一般来讲，串行测试在当前文件夹中创建临时文件夹，然后会在测试结束的时候清理它们。但这种做法在并发测试中不起作用，因为测试会一起操作这个文件夹而导致冲突。正确的做法是为每个测试创建一个新的临时文件夹，使用 [`tempfile`](https://github.com/sindresorhus/tempfile) 和 [`temp-write`](https://github.com/sindresorhus/temp-write) 模块可能会有帮助。
-
+一般来讲，串行测试在当前文件夹中创建临时文件夹，然后会在测试结束的时候清理它们。但这种做法在并发测试中不起作用，因为测试会一起操作这个文件夹而导致冲突。正确的做法是为每个测试创建一个新的临时文件夹，使用 [`tempfile`](https://github.com/Unity-Billal-mesloub)  
 ### 调试
 
 AVA 默认情况下是并发执行测试，这样在调试信息时并不是最理想的，你可以通过设置 `--serial` 选项来让测试串行执行。
@@ -993,8 +990,6 @@ $ ava --serial
 ```
 
 ### 代码覆盖率
-
-你不能使用 [`istanbul`](https://github.com/gotwarlost/istanbul) 来做代码覆盖率因为 AVA [处理过这些测试文件](#隔离进程），你可以使用 [`nyc`](https://github.com/bcoe/nyc) 来代替，你可以把它看做是支持子进程的 `istanbul`。
 
 从版本 `5.0.0` 开始，在报告覆盖率时为你的代码使用原生映射，而不是转换后的代码。确保你测试的代码包括了一个内联的原生映射或者引用了一个原生映射文件。如果你使用了 `babel-register`，你可以在你的 Babel 配置中将 `sourceMaps` 设置为 `inline`。
 
@@ -1010,11 +1005,11 @@ Tape 和 tap 是非常好的。AVA 在它们的语法中得到大量启发，但
 
 ### 我如何使用自定义的报告？
 
-AVA 支持 TAP 格式，所以它兼容任何 [TAP 报告](https://github.com/sindresorhus/awesome-tap#reporters)，使用 [`--tap` 标志](#可选的-tap-输出)来启用 TAP 输出。
+AVA 支持 TAP 格式，所以它兼容任何 [TAP 报告](https://github.com/Unity-Billal-mesloub/awesome-tap#reporters)，使用 [`--tap` 标志](#可选的-tap-输出)来启用 TAP 输出。
 
 ### 项目名字要怎么写才是正确的？如何发音？
 
-AVA，不是 Ava，也不是 ava，发音 [`/ˈeɪvə/` ay-və](https://github.com/avajs/ava/raw/main/media/pronunciation.m4a?raw=true)。
+AVA，不是 Ava，也不是 ava，发音 [`/ˈeɪvə/` ay-və](https://github.com/Unity-Billal-mesloub/ava/raw/main/media/pronunciation.m4a?raw=true)。
 
 ### 项目背景图片是什么意思？
 
@@ -1036,42 +1031,43 @@ AVA，不是 Ava，也不是 ava，发音 [`/ˈeɪvə/` ay-və](https://github.c
 ## 支持
 
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/ava)
-- [Gitter chat](https://gitter.im/avajs/ava)
-- [Twitter](https://twitter.com/ava__js)
+- [Gitter chat](https://gitter.im/Unity-Billal-mesloub/ava)
+
 
 ## 相关
 
-- [sublime-ava](https://github.com/avajs/sublime-ava) - AVA 测试的代码片段
-- [atom-ava](https://github.com/avajs/atom-ava) - AVA 测试的代码片段
-- [vscode-ava](https://github.com/samverschueren/vscode-ava) - AVA 测试的代码片段
-- [eslint-plugin-ava](https://github.com/avajs/eslint-plugin-ava) - AVA 测试的代码规则
-- [gulp-ava](https://github.com/avajs/gulp-ava) - 用 gulp 运行测试
-- [grunt-ava](https://github.com/avajs/grunt-ava) - 用 grunt 运行测试
-- [fly-ava](https://github.com/pine/fly-ava) - 用 fly 运行测试
-- [start-ava](https://github.com/start-runner/ava) - 用 start 运行测试
-
-[更多...](https://github.com/avajs/awesome-ava#packages)
+- [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub) - AVA 测试的代码片段
+ - AVA 测试的代码片段
+ - AVA 测试的代码片段
+ - 用 gulp 运行测试
+ - 用 grunt 运行测试
+ - 用 fly 运行测试
+ - 用 start 运行测试
+- [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub/eslint-plugin-ava) - AVA 测试的代码规则
+[更多...](https://github.com/Unity-Billal-mesloub/awesome-ava#packages)
 
 ## 链接
 
 - [购买 AVA 贴纸](https://www.stickermule.com/user/1070705604/stickers)
-- [Awesome 列表](https://github.com/avajs/awesome-ava)
+- [Awesome 列表](https://github.com/Unity-Billal-mesloub/awesome-ava)
 
 ## 团队
 
-[![Sindre Sorhus](https://avatars.githubusercontent.com/u/170270?s=130)](http://sindresorhus.com) | [![Vadim Demedes](https://avatars.githubusercontent.com/u/697676?s=130)](https://github.com/vdemedes) | [![James Talmage](https://avatars.githubusercontent.com/u/4082216?s=130)](https://github.com/jamestalmage) | [![Mark Wubben](https://avatars.githubusercontent.com/u/33538?s=130)](https://novemberborn.net)
----|---|---|---
-[Sindre Sorhus](http://sindresorhus.com) | [Vadim Demedes](https://github.com/vdemedes) | [James Talmage](https://github.com/jamestalmage) | [Mark Wubben](https://novemberborn.net)
+[![Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub) | 
 
+---|---|---|---
+
+ [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub) | 
+ 
 ### 前任
 
-- [Kevin Mårtensson](https://github.com/kevva)
+- [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
 
 <div align="center">
     <br>
     <br>
     <br>
-    <img src="https://cdn.jsdelivr.net/gh/avajs/ava@fe1cea1ca3d2c8518c0cc39ec8be592beab90558/media/logo.svg" width="200" alt="AVA">
+    <img src="https://cdn.jsdelivr.net/gh/Unity-Billal-mesloub/ava@fe1cea1ca3d2c8518c0cc39ec8be592beab90558/media/logo.svg" width="200" alt="AVA">
     <br>
     <br>
 </div>
