@@ -1,11 +1,11 @@
 ___
 **Note du traducteur**
 
-C'est la traduction du fichier [05-command-line.md](https://github.com/avajs/ava/blob/main/docs/05-command-line.md). Voici un [lien](https://github.com/avajs/ava/compare/b208d143ad852dc95aa8b44eed94ac1f404a25f4...main#diff-a89aa74aa84d41f245185beac2e62ca024ba87d84740430e06aacf9b156cf5ba) vers les différences avec le master de AVA (Si en cliquant sur le lien, vous ne trouvez pas le fichier `05-command-line.md` parmi les fichiers modifiés, vous pouvez donc en déduire que la traduction est à jour).
+C'est la traduction du fichier [05-command-line.md](https://github.com/Unity-Billal-mesloub/ava/blob/main/docs/05-command-line.md). Voici vers les différences avec le master de AVA (Si en cliquant sur le lien, vous ne trouvez pas le fichier `05-command-line.md` parmi les fichiers modifiés, vous pouvez donc en déduire que la traduction est à jour).
 ___
 # CLI
 
-Traductions : [English](https://github.com/avajs/ava/blob/main/docs/05-command-line.md)
+Traductions : [English](https://github.com/Unity-Billal-mesloub/ava/blob/main/docs/05-command-line.md)
 
 ```console
 ava [<pattern>...]
@@ -114,9 +114,9 @@ Lors de l'utilisation de `npm test`, vous pouvez passer directement des argument
 
 ## Exécution de tests correspondants à des titres
 
-[![Ouvrir dans StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/avajs/ava/tree/main/examples/matching-titles?file=test.js&terminal=test&view=editor)
+[![Ouvrir dans StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/Unity-Billal-mesloub/ava/tree/main/examples/matching-titles?file=test.js&terminal=test&view=editor)
 
-L'option `--match` permet d'exécuter des tests où le titre correspond à la demande. Ceci est réalisé avec des patterns génériques simples. Les patterns sont insensibles à la casse. Consultez [matcher](https://github.com/sindresorhus/matcher) pour plus d'informations.
+L'option `--match` permet d'exécuter des tests où le titre correspond à la demande. Ceci est réalisé avec des patterns génériques simples. Les patterns sont insensibles à la casse. Consultez [matcher](https://github.com/Unity-Billal-mesloub/matcher) pour plus d'informations.
 
 Trouve les titres se terminant par `foo` :
 
@@ -190,7 +190,7 @@ test(function foo(t) {
 
 ## Exécution de tests à des numéros de ligne spécifiques
 
-[![Ouvrir dans StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/avajs/ava/tree/main/examples/specific-line-numbers?file=test.js&terminal=test&view=editor)
+[![Ouvrir dans StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/Unity-Billal-mesloub/ava/tree/main/examples/specific-line-numbers?file=test.js&terminal=test&view=editor)
 
 AVA vous permet de lancer des tests exclusivement en vous référant à leur numéro de ligne. Ciblez une seule ligne, une série de lignes ou les deux. Vous pouvez sélectionner n'importe quel numéro de ligne d'un test.
 
@@ -263,19 +263,19 @@ Cela supprime tous les fichiers du répertoire `node_modules/.cache/ava`.
 
 AVA utilise par défaut un rapporteur lisible par l'homme :
 
-<img src="https://github.com/avajs/ava/raw/main/media/verbose-reporter.png" width="294">
+<img src="https://github.com/Unity-Billal-mesloub/ava/raw/main/media/verbose-reporter.png" width="294">
 
 ### Reporter de TAP
 
-[![Ouvrir dans StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/avajs/ava/tree/main/examples/tap-reporter?file=test.js&terminal=test&view=editor)
+[![Ouvrir dans StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/Unity-Billal-mesloub/ava/tree/main/examples/tap-reporter?file=test.js&terminal=test&view=editor)
 
-AVA prend en charge le format de TAP et est compatible avec [tous les reporters de TAP](https://github.com/sindresorhus/awesome-tap#reporters). Utilisez l'option `--tap` pour activer la restitution de TAP.
+AVA prend en charge le format de TAP et est compatible avec [tous les reporters de TAP](https://github.com/Unity-Billal-mesloub/awesome-tap#reporters). Utilisez l'option `--tap` pour activer la restitution de TAP.
 
 ```console
 $ ava --tap | tap-nyan
 ```
 
-<img src="https://github.com/avajs/ava/raw/main/media/tap-reporter.png" width="420">
+<img src="https://github.com/Unity-Billal-mesloub/ava/raw/main/media/tap-reporter.png" width="420">
 
 Veuillez noter que le reporter TAP est indisponible lors de l'utilisation du [mode watch](./recipes/watch-mode.md).
 
