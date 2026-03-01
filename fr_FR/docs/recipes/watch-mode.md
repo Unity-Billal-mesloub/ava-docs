@@ -1,11 +1,11 @@
 ___
 **Note du traducteur**
 
-C'est la traduction du fichier [watch-mode.md](https://github.com/avajs/ava/blob/main/docs/recipes/watch-mode.md). Voici un [lien](https://github.com/avajs/ava/compare/b208d143ad852dc95aa8b44eed94ac1f404a25f4...main#diff-e759e03510c7ba375dbdc805e9348e62c3a3b3be18520c167a15c0d7e9751480) vers les différences avec le master de AVA (Si en cliquant sur le lien, vous ne trouvez pas le fichier `watch-mode` parmi les fichiers modifiés, vous pouvez donc en déduire que la traduction est à jour).
+C'est la traduction du fichier [watch-mode.md](https://github.com/Unity-Billal-mesloub/ava/blob/main/docs/recipes/watch-mode.md). e759e03510c7ba375dbdc805e9348e62c3a3b3be18520c167a15c0d7e9751480) vers les différences avec le master de AVA (Si en cliquant sur le lien, vous ne trouvez pas le fichier `watch-mode` parmi les fichiers modifiés, vous pouvez donc en déduire que la traduction est à jour).
 ___
 # Mode watch
 
-Traductions : [English](https://github.com/avajs/ava/blob/main/docs/recipes/watch-mode.md), [Italiano](https://github.com/avajs/ava-docs/blob/main/it_IT/docs/recipes/watch-mode.md), [Русский](https://github.com/avajs/ava-docs/blob/main/ru_RU/docs/recipes/watch-mode.md), [简体中文](https://github.com/avajs/ava-docs/blob/main/zh_CN/docs/recipes/watch-mode.md)
+Traductions : [English](https://github.com/Unity-Billal-mesloub/ava/blob/main/docs/recipes/watch-mode.md), [Italiano](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/it_IT/docs/recipes/watch-mode.md), [Русский](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/ru_RU/docs/recipes/watch-mode.md), [简体中文](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/zh_CN/docs/recipes/watch-mode.md)
 
 AVA est livré avec un mode watch intelligent. Il surveille les fichiers modifiés et exécute seulement les tests qui sont impactés.
 
@@ -25,7 +25,7 @@ AVA utilise [`chokidar`] pour surveiller les fichiers. Notez que même si vous v
 
 ## Ignorer les modifications
 
-Par défaut AVA surveille les modifications de tous les fichiers, à l'exception de ceux avec une extension `.snap.md`, `ava.config.*` et des fichiers dans [certains répertoires](https://github.com/novemberborn/ignore-by-default/blob/master/index.js) qui ont été fournis par le package [`ignore-by-default`].
+Par défaut AVA surveille les modifications de tous les fichiers, à l'exception de ceux avec une extension `.snap.md`, `ava.config.*` et des fichiers dans [certains répertoires](https://github.com/Unity-Billal-mesloub) qui ont été fournis par le package [`ignore-by-default`].
 
 Vous pouvez configurer des patterns supplémentaires pour ignorer des fichiers dans la [section `ava` de votre `package.json` ou le fichier `ava.config.*`][config] en utilisant la clé `ignoredByWatcher`.
 
@@ -65,8 +65,5 @@ $ DEBUG=ava:watcher npx ava --watch
 
 Le mode watch est relativement jeune et il peut y avoir des petites erreurs. Veuillez [signaler](https://github.com/avajs/ava/issues) (en anglais) les problèmes que vous rencontrez. Merci !
 
-[`chokidar`]: https://github.com/paulmillr/chokidar
-[Install Troubleshooting]: https://github.com/paulmillr/chokidar#install-troubleshooting
-[`ignore-by-default`]: https://github.com/novemberborn/ignore-by-default
 [`.only`]: ../01-writing-tests.md#exécution-de-tests-spécifiques
 [config]: ../06-configuration.md
