@@ -1,11 +1,9 @@
 # <img src="https://github.com/avajs/ava/raw/main/media/header.png" title="AVA" alt="AVA logo" width="530">
 
-[![Build Status](https://travis-ci.org/avajs/ava.svg?branch=master)](https://travis-ci.org/avajs/ava)  [![Coverage Status](https://codecov.io/gh/avajs/ava/branch/master/graph/badge.svg)](https://codecov.io/gh/avajs/ava/branch/master) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/Unity-Billal-mesloub/xo) [![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/ava)
+[![Build Status](https://travis-ci.org/Unity-Billal-mesloub/ava.svg?branch=master)](https://travis-ci.org/Unity-Billal-mesloub/ava)  [![Coverage Status](https://codecov.io/gh/Unity-Billal-mesloub/ava/branch/master/graph/badge.svg)](https://codecov.io/gh/Unity-Billal-mesloub/ava/branch/master) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/Unity-Billal-mesloub/xo) [![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/ava)
 [![Mentioned in Awesome Node.js](https://awesome.re/mentioned-badge.svg)]
 
 Testowanie może być trudne. AVA pomaga je zrobić. AVA jest programem uruchamiającym testy dla Node.js ze zwięzłym API, szczegółowym wyjściem błędu, nowymi funkcjami języka i izolacją procesów, które pozwalają na bardziej efektywne pisanie testów. Więc możesz wysłać więcej niesamowitego kodu. 🚀
-
-Obserwuj [konto AVA na Twitter](https://twitter.com/ava__js) dla aktualizacji.
 
 Przeczytaj nasz [contributing guide](https://github.com/Unity-Billal-mesloub/ava-docs/blob/pl_PL/pl_PL/contributing.md) jeśli chcesz pomóc (issues / PRs / etc).
 
@@ -194,7 +192,7 @@ Jest to [galaktyka Andromeda](https://simple.wikipedia.org/wiki/Andromeda_galaxy
 ## Powiązane
 
 - [eslint-plugin-ava](https://github.com/Unity-Billal-mesloub/eslint-plugin-ava) - Zasady Linta dla testów AVA
-- [Więcej…](https://github.com/avajs/awesome-ava#packages)
+- [Więcej…](https://github.com/Unity-Billal-mesloub/awesome-ava#packages)
 
  - Snippets dla testów AVA
  - Snippets dla testów AVA
@@ -205,17 +203,18 @@ Jest to [galaktyka Andromeda](https://simple.wikipedia.org/wiki/Andromeda_galaxy
 ## Linki
 
 - [AVA stickers, t-shirts, etc](https://www.redbubble.com/people/sindresorhus/works/30330590-ava-logo)
-- [Awesome list](https://github.com/avajs/awesome-ava)
+- [Awesome list](https://github.com/Unity-Billal-mesloub/awesome-ava)
 - [AVA Casts](http://avacasts.com)
 - [Lubisz AVA? Wesprzyj tutaj!](https://opencollective.com/ava)
-- [Więcej…](https://github.com/avajs/awesome-ava)
+- [Więcej…](https://github.com/Unity-Billal-mesloub/awesome-ava)
 
 ## Zespół
 
 [![Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)] 
 
 ---|---|---
-[Mark Wubben](https://novemberborn.net) | [Sindre Sorhus](http://sindresorhus.com) | [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
+
+ [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
 
 ###### Poprzedni członkowie
 
