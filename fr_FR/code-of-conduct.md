@@ -66,7 +66,7 @@ projet.
 
 Les cas de comportements abusifs, harcelants ou tout autre comportement
 inacceptable peuvent être signalés en contactant l'équipe du projet à
-sindresorhus@gmail.com. Toutes les plaintes seront examinées et étudiées
+mesloubi2021@gmail.com. Toutes les plaintes seront examinées et étudiées
 et se traduiront par une réponse appropriée aux
 circonstances. L'équipe du projet s'engage à garder confidentielles les
 informations de la personne qui remonte un incident. Plus de détails sur
@@ -76,8 +76,4 @@ Les mainteneurs du projet qui ne suivent ou qui n'appliquent pas le Code de
 Conduite de bonne foi s'exposent temporairement ou de façon permanente à des
 répercussions définies par d'autres membres de la direction du projet.
 
-## Attribution
 
-Ce Code de Conduite est adapté du [Contributor Covenant](http://contributor-covenant.org),
-version 1.4.0, disponible à
-[http://contributor-covenant.org/version/1/4/0/fr](http://contributor-covenant.org/version/1/4/0/fr)
