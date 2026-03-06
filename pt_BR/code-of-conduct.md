@@ -1,7 +1,7 @@
 ___
 **Nota do tradutor**
 
-Esta é a tradução de [code-of-conduct.md](https://github.com/Unity-Billal-mesloub/ava/blob/main/.github/CODE_OF_CONDUCT.md). [Este link](https://github.com/Unity-Billal-mesloub/ava/) compara a versão em que se baseou esta tradução com a última versão disponível no branch `master` do AVA. Se não houver mudanças em `code-of-conduct.md`, então a tradução está atualizada.
+Esta é a tradução de [code-of-conduct.md](https://github.com/Unity-Billal-mesloub/ava/blob/main/.github/CODE_OF_CONDUCT.md). [Este link](https://github.com/Unity-Billal-mesloub/ava/) compara a versão em que se baseou esta tradução com a última versão disponível no branch `main` do AVA. Se não houver mudanças em `code-of-conduct.md`, então a tradução está atualizada.
 ___
 
 # Código de Conduta do Contribuidor
