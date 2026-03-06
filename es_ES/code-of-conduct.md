@@ -25,6 +25,5 @@ Con la adopción de este Código de Conducta, los administradores se comprometen
 
 Este código de conducta aplica, tanto a los espacios del proyecto como a espacios públicos, donde un individuo está representando al proyecto o su comunidad.
 
-Ejemplos de abuso, acoso u otro comportamiento inaceptable pueden ser reportados al administrador del proyecto en sindresorhus@gmail.com. Todas las quejas serán revisadas e investigadas, generando un resultado apropiado a las circunstancias. Los administradores tienen la obligación de mantener la confidencialidad de la persona que reporte el incidente.
+Ejemplos de abuso, acoso u otro comportamiento inaceptable pueden ser reportados al administrador del proyecto en mesloubi2021@gmail.com. Todas las quejas serán revisadas e investigadas, generando un resultado apropiado a las circunstancias. Los administradores tienen la obligación de mantener la confidencialidad de la persona que reporte el incidente.
 
-Este Código de Conducta es una adaptación del [Contributor Covenant](http://contributor-covenant.org), versión 1.3.0, disponible en [http://contributor-covenant.org/version/1/3/0/es/](http://contributor-covenant.org/version/1/3/0/es/)
