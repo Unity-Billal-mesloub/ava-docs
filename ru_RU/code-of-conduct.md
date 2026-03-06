@@ -1,11 +1,11 @@
 ___
 **Примечание от переводчика**
 
-Здесь содержится перевод файла [code-of-conduct.md](https://github.com/avajs/ava/blob/main/.github/CODE_OF_CONDUCT.md). Если при нажатии на [ссылку](https://github.com/avajs/ava/compare/4111f9483f2ff6a158b603735a712eee3ab074c4...main#diff-d3030a18b089fdb1fbfabf6e75e4aef0), содержащую последние правки в master ветке AVA, Вы не можете найти файл `code-of-conduct.md`, то можете считать что перевод актуален.
+Здесь содержится перевод файла [code-of-conduct.md](https://github.com/Unity-Billal-mesloub/ava/blob/main/.github/CODE_OF_CONDUCT.md). Если при нажатии на [ссылку](https://github.com/Unity-Billal-mesloub/ava/), содержащую последние правки в main ветке AVA, Вы не можете найти файл `code-of-conduct.md`, то можете считать что перевод актуален.
 ___
 # Кодекс Поведения участника
 
-Переводы: [Español](https://github.com/avajs/ava-docs/blob/main/es_ES/code-of-conduct.md), [Français](https://github.com/avajs/ava-docs/blob/main/fr_FR/code-of-conduct.md), [Italiano](https://github.com/avajs/ava-docs/blob/main/it_IT/code-of-conduct.md), [日本語](https://github.com/avajs/ava-docs/blob/main/ja_JP/code-of-conduct.md), [Português](https://github.com/avajs/ava-docs/blob/main/pt_BR/code-of-conduct.md)
+Переводы: [Español](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/es_ES/code-of-conduct.md), [Français](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/fr_FR/code-of-conduct.md), [Italiano](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/it_IT/code-of-conduct.md), [日本語](https://github.com/avajs/ava-docs/blob/main/ja_JP/code-of-conduct.md), [Português](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/pt_BR/code-of-conduct.md)
 
 Как участники и сопровождающие этот проект, в интересах содействия
 открытому и дружелюбному сообществу, мы обязуемся уважать всех людей, которые
@@ -42,14 +42,12 @@ ___
 публичным местам, когда человек представляет этот проект или сообщество.
 
 Примеры оскорбительного или неприемлимого поведения могут быть направлены
-руководителю проекта на электронный адрес sindresorhus@gmail.com. Все
+руководителю проекта на электронный адрес mesloubi2021@gmail.com. Все
 жалобы будут рассмотрены и изучены, на каждую жалобу будет целесообразный
 и необходимый ответ, в зависимости от обстоятельств. Сопровождающие проект
 обязаны сохранять конфиденциальность в отношении лица, направившего жалобу.
 
-Кодекс Поведения адаптирован с [Contributor Covenant][homepage],
-версия 1.3.0, доступна здесь
-[http://contributor-covenant.org/version/1/3/0/][version]
+
 
 [homepage]: http://contributor-covenant.org
 [version]: http://contributor-covenant.org/version/1/3/0/
