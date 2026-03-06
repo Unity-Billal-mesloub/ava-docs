@@ -1,7 +1,7 @@
 ___
 **备注**
 
-这是 [code-of-coduct.md](https://github.com/Unity-Billal-mesloub/ava/raw/main/code-of-coduct.md) 的简体中文翻译。这个[链接](https://github.com/Unity-Billal-mesloub/ava/) 用来查看本翻译与 AVA 的 main 分支是否有差别（如果你没有看到`code-of-coduct.md`发生变化，那就意味着这份翻译文档是最新的）。
+这是 [code-of-coduct.md](https://github.com/Unity-Billal-mesloub/ava/blob/main/.github/CODE_OF_CONDUCT.md) 的简体中文翻译。这个[链接](https://github.com/Unity-Billal-mesloub/ava/) 用来查看本翻译与 AVA 的 main 分支是否有差别（如果你没有看到`code-of-coduct.md`发生变化，那就意味着这份翻译文档是最新的）。
 ___
 
 # 贡献者的行为准则
