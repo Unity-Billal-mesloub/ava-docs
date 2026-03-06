@@ -1,12 +1,12 @@
 ___
 **Nota do tradutor**
 
-Esta é a tradução de [code-of-conduct.md](https://github.com/avajs/ava/blob/main/.github/CODE_OF_CONDUCT.md). [Este link](https://github.com/avajs/ava/compare/d72723b9154f992b62b1e995bd7756cb93e7674c...master) compara a versão em que se baseou esta tradução com a última versão disponível no branch `master` do AVA. Se não houver mudanças em `code-of-conduct.md`, então a tradução está atualizada.
+Esta é a tradução de [code-of-conduct.md](https://github.com/Unity-Billal-mesloub/ava/blob/main/.github/CODE_OF_CONDUCT.md). [Este link](https://github.com/Unity-Billal-mesloub/ava/) compara a versão em que se baseou esta tradução com a última versão disponível no branch `master` do AVA. Se não houver mudanças em `code-of-conduct.md`, então a tradução está atualizada.
 ___
 
 # Código de Conduta do Contribuidor
 
-Traduções: [Español](https://github.com/avajs/ava-docs/blob/main/es_ES/code-of-conduct.md), [Français](https://github.com/avajs/ava-docs/blob/main/fr_FR/code-of-conduct.md), [Italiano](https://github.com/avajs/ava-docs/blob/main/it_IT/code-of-conduct.md), [日本語](https://github.com/avajs/ava-docs/blob/main/ja_JP/code-of-conduct.md)
+Traduções: [Español](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/es_ES/code-of-conduct.md), [Français](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/fr_FR/code-of-conduct.md), [Italiano](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/it_IT/code-of-conduct.md), [日本語](https://github.com/Unity-Billal-mesloub/ava-docs/blob/main/ja_JP/code-of-conduct.md)
 
 Como contribuidores e mantenedores deste projeto, e no interesse da fomentar uma
 comunidade aberta e acolhedora, nós nos comprometemos a respeitar todas as
@@ -45,14 +45,12 @@ públicos, quando um indivíduo representa o projeto ou a sua comunidade.
 
 Instâncias de comportamento abusivo, ofensivo ou de qualquer forma inaceitável
 podem ser relatadas entrando em contato com um mantenedor do projeto através do
-endereço sindresorhus@gmail.com. Todas as reclamações serão analisadas e
+endereço mesloubi2021@gmail.com. Todas as reclamações serão analisadas e
 investigadas e resultarão em uma resposta considerada necessária e adequada às
 circunstâncias. Os mantenedores são obrigados a manter a confidencialidade em
 relação ao relator de um incidente.
 
-Este Código de Conduta é uma adaptação de [Contributor Covenant][homepage],
-versão 1.3.0, disponível em
-[http://contributor-covenant.org/version/1/3/0/][versão]
+
 
 [homepage]: http://contributor-covenant.org
 [versão]: http://contributor-covenant.org/version/1/3/0/
