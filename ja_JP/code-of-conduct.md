@@ -1,7 +1,7 @@
 ___
 **訳注**
 
-これは[code-of-conduct.md](https://github.com/avajs/ava/blob/main/.github/CODE_OF_CONDUCT.md)の日本語訳です。こちらがAVAのmasterブランチとの差分の[リンク](https://github.com/avajs/ava/compare/93af8d8d2cb48fe0d2c4ede3c92964a295f60cb6...main#diff-d3030a18b089fdb1fbfabf6e75e4aef0)になります(このリンクをクリックして、`code-of-conduct.md`に変更点が見当たらなければ、この翻訳が最新であることを意味します)。
+これは[code-of-conduct.md](https://github.com/Unity-Billal-mesloub/ava/blob/main/.github/CODE_OF_CONDUCT.md)の日本語訳です。こちらがAVAのmasterブランチとの差分の[リンク](https://github.com/Unity-Billal-mesloub/ava/)になります(このリンクをクリックして、`code-of-conduct.md`に変更点が見当たらなければ、この翻訳が最新であることを意味します)。
 ___
 
 # コントリビューターの行動規範
@@ -39,16 +39,11 @@ ___
 この行動規範は、プロジェクト内と、公的な場で個人がこのプロジェクトかこの
 コミュニティを代表する場合の両方に適用されます。
 
-虐待や嫌がらせの例、あるいは受け入れられない振る舞いは、sindresorhus@gmail.com
+虐待や嫌がらせの例、あるいは受け入れられない振る舞いは、mesloubi2021@gmail.com
 でプロジェクトメンテナに連絡することで、報告されます。全ての申し立ては、確認、
 調査され、必要と認められ、適切な事情があるという結果になるでしょう。メンテナは
 争いの報告者に関して機密性の維持を義務付けられます。
 
 
 
-この行動規範は、[Contributor Covenant][homepage]のバージョン1.3.0を改変したものであり、
-バージョン1.3.0については[http://contributor-covenant.org/version/1/3/0/][version]で確認できます。
 
-
-[homepage]: http://contributor-covenant.org
-[version]: http://contributor-covenant.org/version/1/3/0/
