@@ -1,7 +1,7 @@
 ___
 **Note du traducteur**
 
-C'est la traduction du fichier [code-of-conduct.md](https://github.com/Unity-Billal-mesloub/ava/blob/main/.github/CODE_OF_CONDUCT.md). Voici un [lien](https://github.com/Unity-Billal-mesloub/ava/compare/main#diff-avajs/ava) vers les différences avec le master de AVA (Si en cliquant sur le lien, vous ne trouvez pas le fichier `code-of-conduct.md` parmi les fichiers modifiés, vous pouvez donc en déduire que la traduction est à jour).
+C'est la traduction du fichier [code-of-conduct.md](https://github.com/Unity-Billal-mesloub/ava/blob/main/.github/CODE_OF_CONDUCT.md). Voici un [lien](https://github.com/Unity-Billal-mesloub/ava/) vers les différences avec le main de AVA (Si en cliquant sur le lien, vous ne trouvez pas le fichier `code-of-conduct.md` parmi les fichiers modifiés, vous pouvez donc en déduire que la traduction est à jour).
 ___
 # Charte Code de Conduite Contributeurs
 
